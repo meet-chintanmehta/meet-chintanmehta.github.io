@@ -1,16 +1,36 @@
+{% if site.google-publisher-id and page.layout != 'post %}
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- horizontal responsive -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="{{ site.google-publisher-id }}"
+           data-ad-slot="6872869883"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+  </div>
+</div>
+{% endif %}
 <footer class="footer">
   <div class="container">
     <div class="row">
       <div class="col col-12">
         <div class="footer-top">
           <h2 class="logo-title">
-            <a href="{{site.baseurl}}/" class="logo-text">Galada</a>
+            <a href="{{site.baseurl}}/" class="logo-text">{{logo_html}}</a>
           </h2>
           <div class="top"><i class="ion ion-ios-arrow-up"></i></div>
         </div>
         <div class="footer-bottom">
           <div class="copyright">
-            <p>&copy; {{site.time | date: '%Y'}} Crafted & Designed by <a href="https://github.com/artemsheludko">Artem Sheludko</a></p>
+            <p>&copy; {{site.time | date: '%Y'}} <a href="https://techiepie.com">Techiepie.com</a></p>
+            <p>Free theme by <a href="https://github.com/artemsheludko">Artem Sheludko</a></p>
           </div>
           <div class="footer-social">
             <ul class="list-reset">

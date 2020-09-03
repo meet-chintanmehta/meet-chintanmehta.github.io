@@ -1,4 +1,12 @@
 <head>
+  <!-- Logo -->
+  {% if site.logo == "image" %}
+    {% assign logo_html = '<div class="logo-image" style="background-image: url("%1/img/%2")"></div>' | replace: '%1' , site.baseurl | replace: '%2' , site.logo-image %}
+  {% elsif site.logo == "text" %}
+    {% assign logo_html = site.logo-text %}
+  {% else %}
+    {% assign logo_html = '' %}
+  {% endif %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
