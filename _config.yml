@@ -11,8 +11,8 @@ logo-text: Techiepie.com  # if logo is text give text
 
 #-------------------------------
 # About Section
-author-name:   Natali Anderson
-author-avatar: 09.jpg
+author-name:   Chintan Mehta
+#author-avatar: 09.jpg
 
 
 #-------------------------------
@@ -53,6 +53,7 @@ permalink: ':categories/:title/'
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-archives
 
 paginate: 7
 paginate_path: "/page/:num"
@@ -64,7 +65,14 @@ sass:
   sass_dir: _sass
   style: compressed
 
-
+jekyll-archives:
+  enabled:
+    - 'tags'
+    - 'categories'
+  layout: archive
+  permalinks:
+    tag: '/tags/:name/'
+    category: '/categories/:name/'
 #-------------------------------
 # Exclude from processing.
 # exclude:
