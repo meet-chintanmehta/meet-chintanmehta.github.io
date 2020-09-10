@@ -23,12 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/post-ad.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/post-ad.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599135415733</updated>
       <workItem from="1599135417561" duration="2267000" />
-      <workItem from="1599770454925" duration="2726000" />
+      <workItem from="1599770454925" duration="2918000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit">
       <created>1599135438895</created>
@@ -147,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599772872104</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- add ads">
+      <created>1599773277395</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599773277395</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,25 +172,26 @@
     <MESSAGE value="- Jekyll setup" />
     <MESSAGE value="- added categories&#10;- added ads&#10;- added logo text" />
     <MESSAGE value="- added category page&#10;- corrected header menu&#10;- added category to post" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added category page&#10;- corrected header menu&#10;- added category to post" />
+    <MESSAGE value="- add ads" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add ads" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4002" y="174" key="SettingsEditor" timestamp="1599136492742">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4002" y="174" key="SettingsEditor/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599136492742" />
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599772874234">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599773278372">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599772874234" />
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599773278372" />
     <state x="4293" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599147151163">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4293" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599147151163" />
-    <state x="4205" y="262" width="616" height="580" key="find.popup" timestamp="1599773179951">
+    <state x="4205" y="262" width="616" height="580" key="find.popup" timestamp="1599773190701">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4205" y="262" width="616" height="580" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599773179951" />
+    <state x="4205" y="262" width="616" height="580" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599773190701" />
     <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599772654034">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
