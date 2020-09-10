@@ -31,6 +31,6 @@
   {{ include_to_scssify | scssify }}
   </style>
   {% if site.google-publisher-id %}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script data-ad-client="{{ site.google-publisher-id }}" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   {% endif %}
 </head>
