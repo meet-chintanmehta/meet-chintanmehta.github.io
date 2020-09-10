@@ -30,4 +30,7 @@
   {% endcapture %}
   {{ include_to_scssify | scssify }}
   </style>
+  {% if site.google-publisher-id %}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  {% endif %}
 </head>
