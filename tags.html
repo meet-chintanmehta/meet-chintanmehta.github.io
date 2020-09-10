@@ -1,7 +1,6 @@
 ---
-layout: page
-title: Tags in Blog
-image: 10.jpg
+layout: page-no-banner
+title: Tags Archive
 permalink: /tags/
 ---
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}

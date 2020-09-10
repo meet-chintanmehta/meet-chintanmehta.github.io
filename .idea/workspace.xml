@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,16 +23,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2020-05-29-welcome-to-jekyll.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-29-welcome-to-jekyll.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-29-welcome-to-jekyll.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_draft/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/styleguide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-abstraction-as-art.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-23-abstraction-as-art.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-flower-care-guide.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-23-flower-care-guide.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-how-to-plan-a-camping-trip.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-23-how-to-plan-a-camping-trip.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-09-03-welcome-to-jekyll.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-night-city-lights.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-23-night-city-lights.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-premiere-on-broadway.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-23-premiere-on-broadway.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-the-most-popular-mistakes.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-23-the-most-popular-mistakes.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-the-path-to-self-perfection.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-23-the-path-to-self-perfection.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/tags.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +89,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -83,13 +97,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_layouts" />
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/_includes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_draft" />
       <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_posts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_includes" />
-      <recent name="$PROJECT_DIR$/_layouts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -101,6 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599135415733</updated>
       <workItem from="1599135417561" duration="2267000" />
+      <workItem from="1599770454925" duration="2292000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit">
       <created>1599135438895</created>
@@ -130,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599138044474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="- added categories&#10;- added ads&#10;- added logo text">
+      <created>1599144241939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599144241939</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,24 +176,29 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="- initial commit" />
     <MESSAGE value="- Jekyll setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Jekyll setup" />
+    <MESSAGE value="- added categories&#10;- added ads&#10;- added logo text" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added categories&#10;- added ads&#10;- added logo text" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4002" y="174" key="SettingsEditor" timestamp="1599136492742">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4002" y="174" key="SettingsEditor/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599136492742" />
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599138046972">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599144243330">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599138046972" />
-    <state x="4205" y="262" width="616" height="554" key="find.popup" timestamp="1599139246435">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599144243330" />
+    <state x="4293" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599147151163">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4205" y="262" width="616" height="554" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599139246435" />
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599140156349">
+    <state x="4293" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599147151163" />
+    <state x="4205" y="262" width="616" height="554" key="find.popup" timestamp="1599772518389">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599140156349" />
+    <state x="4205" y="262" width="616" height="554" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599772518389" />
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599772654034">
+      <screen x="3520" y="0" width="1920" height="1080" />
+    </state>
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599772654034" />
   </component>
 </project>

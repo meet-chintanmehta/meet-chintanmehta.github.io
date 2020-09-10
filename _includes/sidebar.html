@@ -40,7 +40,7 @@
   </div>
   {% endif %}
 
-
+  {% comment %}
   <div class="widget widget-social">
     <h3 class="widget-title">Subscribe & Follow</h3>
     <ul class="social-profiles list-reset">
@@ -86,7 +86,6 @@
       </div>
     </form>
   </div>
-
   {% if site.instafeed == true %}
   <div class="widget widget-instagram">
     <h3 class="widget-title">Instagram</h3>
@@ -96,6 +95,7 @@
     </div>
   </div>
   {% endif %}
+  {% endcomment %}
 
   <div class="widget widget-tags">
     <h3 class="widget-title">Tag Cloud</h3>
@@ -107,6 +107,19 @@
         <li class="tag-item"><a href="{{ site.baseurl }}/tags#{{ this_word | cgi_escape }}" class="tag">{{ this_word }}</a></li>
       {% endunless %}
     {% endfor %}
+    </ul>
+  </div>
+
+  <div class="widget widget-tags">
+    <h3 class="widget-title">Categories</h3>
+    {% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{%
+    endcapture %} {% assign category_words = site_categories | split:',' | sort %}
+    <ul class="tag-list list-reset">
+      {% for item in (0..site.categories.size) %}{% unless forloop.last %}
+      {% capture this_word %}{{ category_words[item] | strip_newlines }}{% endcapture %}
+      <li class="tag-item"><a href="{{ site.baseurl }}/categories/{{ this_word | cgi_escape }}" class="tag">{{ this_word }}</a></li>
+      {% endunless %}
+      {% endfor %}
     </ul>
   </div>
   
