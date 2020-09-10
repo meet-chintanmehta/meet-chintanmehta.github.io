@@ -25,6 +25,10 @@
     <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/Category Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/Category Sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/Page Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/Page Sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/Tag Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/Tag Sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/XML Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/XML Sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,14 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="1-jekyll-setup" />
+                    <option name="lastUsedInstant" value="1599774516" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="gh-pages" />
+                    <option name="lastUsedInstant" value="1599774366" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
                     <option name="lastUsedInstant" value="1599135814" />
@@ -99,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599135415733</updated>
       <workItem from="1599135417561" duration="2267000" />
-      <workItem from="1599770454925" duration="3736000" />
+      <workItem from="1599770454925" duration="4150000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit">
       <created>1599135438895</created>
@@ -164,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599773926049</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="- add nojekyll">
+      <created>1599774242078</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599774242078</updated>
+    </task>
+    <task id="LOCAL-00011" summary=" delete gh-pages">
+      <created>1599774393331</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599774393331</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,17 +215,22 @@
     <MESSAGE value="- added category page&#10;- corrected header menu&#10;- added category to post" />
     <MESSAGE value="- add ads" />
     <MESSAGE value="- add nojekyll" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add nojekyll" />
+    <MESSAGE value=" delete gh-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value=" delete gh-pages" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="3687" y="98" width="1653" height="882" key="DiffContextDialog" timestamp="1599774606648">
+      <screen x="3520" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3687" y="98" width="1653" height="882" key="DiffContextDialog/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599774606648" />
     <state x="4002" y="174" key="SettingsEditor" timestamp="1599136492742">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4002" y="174" key="SettingsEditor/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599136492742" />
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599773927478">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599774394464">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599773927478" />
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599774394464" />
     <state x="4293" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599147151163">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
