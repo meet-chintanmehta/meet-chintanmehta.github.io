@@ -23,8 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/android-apps/how-to-remove-chinese-apps-from-your-android-phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/android-apps/how-to-remove-chinese-apps-from-your-android-phone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/categories/linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/categories/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/category/uncategorized.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/category/uncategorized.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/redirects/Tag Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/Tag Sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/fix-broken-install-ubuntu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/fix-broken-install-ubuntu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/free-up-boot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/free-up-boot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/mysql-ubuntu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/mysql-ubuntu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/mysql-workbench-password-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/mysql-workbench-password-error/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/no-space-left-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/no-space-left-error/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/php-memory-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/php-memory-error/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/ubuntu-boot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ubuntu-boot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/ubuntu-mysql-password/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ubuntu-mysql-password/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/wordpress-php/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/wordpress-php/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/uncategorized/hello-world.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/uncategorized/hello-world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599135415733</updated>
       <workItem from="1599135417561" duration="2267000" />
-      <workItem from="1599770454925" duration="13489000" />
+      <workItem from="1599770454925" duration="13823000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit">
       <created>1599135438895</created>
@@ -324,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599789590944</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="- safe gen removed">
+      <created>1599790131273</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1599790131273</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,10 +401,10 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4002" y="174" key="SettingsEditor/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599136492742" />
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599789592622">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599790133782">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599789592622" />
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599790133782" />
     <state x="3687" y="98" width="1653" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599783270032">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
