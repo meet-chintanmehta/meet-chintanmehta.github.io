@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "How to Reduce PHP 7+ and WordPress Memory Usage"
+description: "Fatal error: Allowed memory size of 53556432 bytes exhausted (tried to allocate 9851348617 bytes) in /home/xxx/www/website/wp-includes/plugin.php on line xxx"
+date:   2020-07-10 00:00:00
+tags:   [PHP memory error, wordpress php]
+categories: [web]
+redirect_from:
+- /web/how-to-reduce-php-7-and-wordpress-memory-usage
+ads: true
+---
+<p>If you are using shared hosting, VPS, dedicated or a cloud server, you will always have a limitation on the memory available.</p>
+<pre class="wp-block-code"><code>Fatal error: Allowed memory size of 53556432 bytes exhausted (tried to allocate 9851348617 bytes) in /home/xxx/www/website/wp-includes/plugin.php on line xxx</code></pre>
+<div class="schema-how-to wp-block-yoast-how-to-block">
+    <p class="schema-how-to-description"></p>
+    <ol class="schema-how-to-steps">
+        <li class="schema-how-to-step" id="how-to-step-1594382458374"><strong class="schema-how-to-step-name">You need to increase PHP memory limit for wordpress by adding following code in wp-config.php</strong>
+            <p class="schema-how-to-step-text"><code>define( 'WP_MEMORY_LIMIT', '256M' );</code></p>
+        </li>
+        <li>
+            {% include post-ad.html %}
+        </li>
+        <li class="schema-how-to-step" id="how-to-step-1594382497390"><strong class="schema-how-to-step-name">If step 1 doesn&rsquo;t work: disable opcache</strong>
+            <p class="schema-how-to-step-text">PHP newer version has default value as enabled and you can disable it by updating php.ini. Look for<span>&nbsp;</span><strong><code>opcache.enable</code></strong><span>&nbsp;</span>line, remove<span>&nbsp;</span><code>;</code><span>&nbsp;</span>if its commented and set it to<span>&nbsp;</span><code><strong>opcache.enable</strong>=0</code>. Restart php fpm and apache process.</p>
+        </li>
+    </ol>
+</div>

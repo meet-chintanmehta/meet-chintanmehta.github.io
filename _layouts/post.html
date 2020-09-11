@@ -43,7 +43,9 @@ layout: default
 
 				<div class="post-body">
 					{{ content }}
+					{% unless page.ads == true %}
 					{% include post-ad.html %}
+					{% endunless %}
 					{% if page.tags.size >= 1 %}
 					<div class="post-tag">
 						{% for tag in page.tags %}

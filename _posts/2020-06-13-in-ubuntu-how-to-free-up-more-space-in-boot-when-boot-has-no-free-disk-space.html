@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "In ubuntu how to free up more space in /boot when /boot has no free disk space!"
+description: "Have you ever encountered below error: many of you might also have encountered below error while doing apt-get command the reason for the above error is your /boot partition is out of space and"
+date:   2020-06-13 00:00:00
+tags:   [fix broken install ubuntu, free up /boot, no space left error, ubuntu /boot]
+categories: [linux]
+image: in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.png
+redirect_from:
+- /linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space
+ads: true
+---
+<p>Have you ever encountered below error:</p>
+<p><code>Error! Warning! The xxx MiB filesystem mounted at /boot has no free disk space!</code><span></span></p>
+<p>many of you might also have encountered below error while doing apt-get command</p>
+<p><code>Error: apt-get: No space left on device</code><span></span></p>
+<p>the reason for the above error is your /boot partition is out of space and why does it happen? As mentioned in ubuntu<span>&nbsp;</span><a rel="noreferrer noopener" href="https://help.ubuntu.com/community/RemoveOldKernels" target="_blank">help</a><span>&nbsp;</span>it happens because of &ndash;</p>
+<blockquote class="wp-block-quote">
+    <p><strong>LVM installs</strong>&nbsp;and&nbsp;<strong>encrypted installs</strong>&nbsp;use a separate /boot partition. The partition by default is capable of holding only four or five kernels, and can fill to capacity quickly. To prevent your /boot partition from getting full, you need to configure automatic removal of old kernels, or manually remove old kernels regularly.</p>
+</blockquote>
+<p>Recently I came across such issue and I found plenty of answers of that, but none were directly helpful because my /boot parition had already 0 space and all of the approach needed to install some sort of dependency.</p>
+<p>I did some more digging and followed below step to make it working.</p>
+{% include post-ad.html %}
+<p><strong>please backup your system (for vps system you can create snapshot easily)</strong></p>
+<ol>
+    <li>List all kernels using below command:<br /><code>dpkg --list 'linux-image*'</code></li>
+    <li>Display current kernel:<br /><code>uname -r</code></li>
+    <li>List all kernels EXCEPT current one and Make sure your current kernel isn&rsquo;t on that list.<br /><code>dpkg -l linux-{image,headers}-"[0-9]*" | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d"-"` | grep -e '[0-9]'</code></li>
+    <li>Remove all kernels EXCEPT current one:<br /><code>dpkg -l linux-{image,headers}-"[0-9]*" | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d"-"` | grep -e '[0-9]' | xargs sudo apt-get -y purge</code><br /><strong>I was getting an error at step 4 and hence I had to do step 4.1</strong>
+        <ol>
+            <li>Manually list and remove a few of old kernels using below commands:<br /><code>ls -lh /boot/*-3.13.0-119*;</code><br /><code>rm /boot/*-3.13.0-119*;</code><br />replace 3.13.0 with your old kernel versions and double-check so you don&rsquo;t mess up the existing kernel.</li>
+            <li>After doing it update your grub (very important step as without this step when I continued I ended up the non-working system on reboot.<br /><code>sudo update-grub</code></li>
+            <li>reboot the system and check its in working order, you may still see the same error and you can jump on step 5, no need to execute a command on step 4</li>
+        </ol>
+    </li>
+    <li>Clear other stuff:<br /><code>sudo apt-get autoremove --purge</code><br />I was getting an error:<br /><strong>E: Unmet dependencies. Try &lsquo;apt &ndash;fix-broken install&rsquo; with no packages (or specify a solution).</strong>
+        <ol>
+            <li>I had to do<br /><code>sudo apt --fix-broken install</code><span>&nbsp;</span>to fix it</li>
+            <li>reboot the system and check its booting fine</li>
+            <li>run command mentioned in step 5</li>
+        </ol>
+    </li>
+    <li>reboot the system, the system should boot fine and check /boot space it will have more free space.</li>
+    <li>run sudo apt-get update and other commands mentioned in<span>&nbsp;</span><a rel="noreferrer noopener" href="https://help.ubuntu.com/community/RemoveOldKernels" target="_blank">ubuntu help</a><span>&nbsp;</span>to setup auto cleanup and update to latest stable kernel</li>
+</ol>
+<p><strong>Reference url:</strong></p>
+<ul>
+    <li>https://askubuntu.com/a/1053826/1094550</li>
+    <li>https://askubuntu.com/a/963646/1094550</li>
+</ul>
