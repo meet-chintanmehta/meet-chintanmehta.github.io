@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2020-07-10-how-to-reduce-php-7-and-wordpress-memory-usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-07-10-how-to-reduce-php-7-and-wordpress-memory-usage.html" afterDir="false" />
-    </list>
+    <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,11 +42,15 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="1-jekyll-setup" />
-                    <option name="lastUsedInstant" value="1599775300" />
+                    <option name="lastUsedInstant" value="1599789515" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="gh-pages" />
-                    <option name="lastUsedInstant" value="1599775216" />
+                    <option name="branchName" value="gh-pages-5614ba2" />
+                    <option name="lastUsedInstant" value="1599789397" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="gh-pages-df1a275" />
+                    <option name="lastUsedInstant" value="1599789284" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -107,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599135415733</updated>
       <workItem from="1599135417561" duration="2267000" />
-      <workItem from="1599770454925" duration="12834000" />
+      <workItem from="1599770454925" duration="13211000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit">
       <created>1599135438895</created>
@@ -291,7 +293,28 @@
       <option name="project" value="LOCAL" />
       <updated>1599789102058</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="- safe gen">
+      <created>1599789242265</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599789242265</updated>
+    </task>
+    <task id="LOCAL-00028" summary="- safe gen removed">
+      <created>1599789259297</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1599789259297</updated>
+    </task>
+    <task id="LOCAL-00029" summary="- safe gen removed">
+      <created>1599789348680</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599789348680</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +345,8 @@
     <MESSAGE value="- commit sites" />
     <MESSAGE value="- redirect working" />
     <MESSAGE value="- safe gen" />
-    <option name="LAST_COMMIT_MESSAGE" value="- safe gen" />
+    <MESSAGE value="- safe gen removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="- safe gen removed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3687" y="98" width="1653" height="882" key="DiffContextDialog" timestamp="1599774606648">
@@ -333,10 +357,10 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4002" y="174" key="SettingsEditor/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599136492742" />
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599789103718">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599789349935">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599789103718" />
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599789349935" />
     <state x="3687" y="98" width="1653" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599783270032">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
@@ -349,9 +373,9 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4205" y="262" width="616" height="580" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599788259942" />
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599788825558">
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599789460177">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599788825558" />
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599789460177" />
   </component>
 </project>
