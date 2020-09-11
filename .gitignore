@@ -1,5 +1,6 @@
 .idea
 .idea/*
+.idea/workspace.xml
 .sass-cache
 .jekyll-metadata
 *.DS_Store

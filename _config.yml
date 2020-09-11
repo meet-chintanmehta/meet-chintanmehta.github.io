@@ -74,6 +74,7 @@ jekyll-archives:
     - 'tags'
     - 'categories'
   layout: archive
+  slug_mode: latin
   permalinks:
     tag: '/tags/:name/'
     category: '/categories/:name/'
