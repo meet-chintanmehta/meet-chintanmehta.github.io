@@ -268,7 +268,47 @@
 
 
 
-      
+  
+
+      <script type="application/ld+json">
+    
+
+    {
+        "@context":"http://schema.org",
+        "@type":"BlogPosting",
+        "headline":"In ubuntu how to free up more space in /boot when /boot has no free disk space!",
+        "genre":"",
+        "keywords":"",
+        "wordCount":"4290",
+         "url":"https://meet-chintanmehta.github.io//linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/", 
+        "datePublished":"2020-06-12",
+        "author": {
+        "@type": "Person",
+        "name": "Chintan Mehta",
+        "sameAs": [
+            "https://en.gravatar.com/meetchintanmehta"
+        ]
+    },
+        "publisher":{
+                "@type": "Person",
+                "name": "Chintan Mehta",
+                "sameAs": [
+                    "https://en.gravatar.com/meetchintanmehta"
+                ],
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb",
+                "url": "https://meet-chintanmehta.github.io/"
+            }
+        },
+        "mainEntityOfPage":{
+            "@type":"WebPage",
+            "@id":"https://meet-chintanmehta.github.io//linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/"
+        },
+        "articleBody":"Have you ever encountered below error:Error! Warning! The xxx MiB filesystem mounted at /boot has no free disk space!many of you might also have encountered below error while doing apt-get commandError: apt-get: No space left on devicethe reason for the above error is your /boot partition is out of space and why does it happen? As mentioned in ubuntu&amp;nbsp;help&amp;nbsp;it happens because of &amp;ndash;    LVM installs&amp;nbsp;and&amp;nbsp;encrypted installs&amp;nbsp;use a separate /boot partition. The partition by default is capable of holding only four or five kernels, and can fill to capacity quickly. To prevent your /boot partition from getting full, you need to configure automatic removal of old kernels, or manually remove old kernels regularly.Recently I came across such issue and I found plenty of answers of that, but none were directly helpful because my /boot parition had already 0 space and all of the approach needed to install some sort of dependency.I did some more digging and followed below step to make it working.                  please backup your system (for vps system you can create snapshot easily)    List all kernels using below command:dpkg --list 'linux-image*'    Display current kernel:uname -r    List all kernels EXCEPT current one and Make sure your current kernel isn&amp;rsquo;t on that list.dpkg -l linux-{image,headers}-&quot;[0-9]*&quot; | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d&quot;-&quot;` | grep -e '[0-9]'    Remove all kernels EXCEPT current one:dpkg -l linux-{image,headers}-&quot;[0-9]*&quot; | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d&quot;-&quot;` | grep -e '[0-9]' | xargs sudo apt-get -y purgeI was getting an error at step 4 and hence I had to do step 4.1                    Manually list and remove a few of old kernels using below commands:ls -lh /boot/*-3.13.0-119*;rm /boot/*-3.13.0-119*;replace 3.13.0 with your old kernel versions and double-check so you don&amp;rsquo;t mess up the existing kernel.            After doing it update your grub (very important step as without this step when I continued I ended up the non-working system on reboot.sudo update-grub            reboot the system and check its in working order, you may still see the same error and you can jump on step 5, no need to execute a command on step 4                Clear other stuff:sudo apt-get autoremove --purgeI was getting an error:E: Unmet dependencies. Try &amp;lsquo;apt &amp;ndash;fix-broken install&amp;rsquo; with no packages (or specify a solution).                    I had to dosudo apt --fix-broken install&amp;nbsp;to fix it            reboot the system and check its booting fine            run command mentioned in step 5                reboot the system, the system should boot fine and check /boot space it will have more free space.    run sudo apt-get update and other commands mentioned in&amp;nbsp;ubuntu help&amp;nbsp;to setup auto cleanup and update to latest stable kernelReference url:    https://askubuntu.com/a/1053826/1094550    https://askubuntu.com/a/963646/1094550"
+    }
+</script>
+
 <div class="container">
 	<div class="row">
 		<div class="col col-12">

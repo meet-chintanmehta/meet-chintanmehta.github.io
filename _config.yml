@@ -12,6 +12,8 @@ logo-text: Techiepie.com  # if logo is text give text
 #-------------------------------
 # About Section
 author-name:   Chintan Mehta
+author-gravatar-image: "https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb"
+author-gravatar-url: "https://en.gravatar.com/meetchintanmehta"
 #author-avatar: 09.jpg
 
 collections:

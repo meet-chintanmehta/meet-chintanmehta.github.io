@@ -268,7 +268,47 @@
 
 
 
-      
+  
+
+      <script type="application/ld+json">
+    
+
+    {
+        "@context":"http://schema.org",
+        "@type":"BlogPosting",
+        "headline":"How to Reduce PHP 7+ and WordPress Memory Usage",
+        "genre":"",
+        "keywords":"",
+        "wordCount":"1804",
+         "url":"https://meet-chintanmehta.github.io//web/how-to-reduce-php-7-and-wordpress-memory-usage/", 
+        "datePublished":"2020-07-09",
+        "author": {
+        "@type": "Person",
+        "name": "Chintan Mehta",
+        "sameAs": [
+            "https://en.gravatar.com/meetchintanmehta"
+        ]
+    },
+        "publisher":{
+                "@type": "Person",
+                "name": "Chintan Mehta",
+                "sameAs": [
+                    "https://en.gravatar.com/meetchintanmehta"
+                ],
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb",
+                "url": "https://meet-chintanmehta.github.io/"
+            }
+        },
+        "mainEntityOfPage":{
+            "@type":"WebPage",
+            "@id":"https://meet-chintanmehta.github.io//web/how-to-reduce-php-7-and-wordpress-memory-usage/"
+        },
+        "articleBody":"If you are using shared hosting, VPS, dedicated or a cloud server, you will always have a limitation on the memory available.Fatal error: Allowed memory size of 53556432 bytes exhausted (tried to allocate 9851348617 bytes) in /home/xxx/www/website/wp-includes/plugin.php on line xxx                You need to increase PHP memory limit for wordpress by adding following code in wp-config.php            define( 'WP_MEMORY_LIMIT', '256M' );                                              If step 1 doesn&amp;rsquo;t work: disable opcache            PHP newer version has default value as enabled and you can disable it by updating php.ini. Look for&amp;nbsp;opcache.enable&amp;nbsp;line, remove&amp;nbsp;;&amp;nbsp;if its commented and set it to&amp;nbsp;opcache.enable=0. Restart php fpm and apache process."
+    }
+</script>
+
 
 <div class="container">
 	<div class="row">
