@@ -169,3 +169,19 @@ Mit License
 
 <p>If you like the themes that I create you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.
 <p align="center"><b>Thank you for your support ❤️</b></p>
+
+### commands
+
+Local Build and serve
+
+`bundle exec jekyll serve`
+
+add `--trace` to debug
+
+Prod Build
+
+`JEKYLL_ENV=production bundle exec`
+
+Push to gh-pages
+
+`push-dir --dir=_site --branch=gh-pages`
