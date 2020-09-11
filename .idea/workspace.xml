@@ -24,35 +24,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/archive.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/archive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/4-layouts/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/4-layouts/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/categories/linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/categories/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/redirects/Category Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/Category Sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/redirects/Page Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/Page Sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/redirects/Tag Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/Tag Sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/redirects/XML Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/XML Sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/fix-broken-install-ubuntu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/fix-broken-install-ubuntu/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/free-up-boot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/free-up-boot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/mysql-ubuntu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/mysql-ubuntu/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/mysql-workbench-password-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/mysql-workbench-password-error/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/no-space-left-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/no-space-left-error/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/php-memory-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/php-memory-error/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ubuntu-boot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ubuntu-boot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/ubuntu-mysql-password/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ubuntu-mysql-password/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/wordpress-php/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/wordpress-php/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/XML Sitemap.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redirects/Category Sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redirects/Category Sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redirects/Page Sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redirects/XML Sitemap.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599135415733</updated>
       <workItem from="1599135417561" duration="2267000" />
-      <workItem from="1599770454925" duration="12064000" />
+      <workItem from="1599770454925" duration="12529000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit">
       <created>1599135438895</created>
@@ -278,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599784819118</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="- redirect working">
+      <created>1599788447440</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599788447440</updated>
+    </task>
+    <task id="LOCAL-00022" summary="- safe gen">
+      <created>1599788532563</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599788532563</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +302,8 @@
     <MESSAGE value="- cleanup" />
     <MESSAGE value="- commit sites" />
     <MESSAGE value="- redirect working" />
-    <option name="LAST_COMMIT_MESSAGE" value="- redirect working" />
+    <MESSAGE value="- safe gen" />
+    <option name="LAST_COMMIT_MESSAGE" value="- safe gen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3687" y="98" width="1653" height="882" key="DiffContextDialog" timestamp="1599774606648">
@@ -319,10 +314,10 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4002" y="174" key="SettingsEditor/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599136492742" />
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599784820888">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599788533930">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599784820888" />
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599788533930" />
     <state x="3687" y="98" width="1653" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599783270032">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
@@ -335,9 +330,9 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4205" y="262" width="616" height="580" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599788259942" />
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599787515455">
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599788825558">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599787515455" />
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599788825558" />
   </component>
 </project>
