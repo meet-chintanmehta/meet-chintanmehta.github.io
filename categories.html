@@ -2,7 +2,7 @@
 layout: page-no-banner
 title: Categories Archive
 permalink: /categories/
-redirect_form:
+redirect_from:
 - /category/uncategorized
 ---
 {% capture site_categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
