@@ -22,7 +22,7 @@ layout: default
 					{% if page.categories.size >= 1 %}
 					<div class="post-tag">
 						{% for category in page.categories %}
-						<a href="{{ site.baseurl }}/categories/{{category}}" class="tag">{{ category }}</a>
+						<a href="{{ site.baseurl }}/categories/{{category | slugify}}" class="tag">{{ category }}</a>
 						{% endfor %}
 					</div>
 					{% endif %}
@@ -49,7 +49,7 @@ layout: default
 					{% if page.tags.size >= 1 %}
 					<div class="post-tag">
 						{% for tag in page.tags %}
-						<a href="{{ site.baseurl }}/tags#{{tag}}" class="tag">{{ tag }}</a>
+						<a href="{{ site.baseurl }}/tags/{{tag | slugify}}" class="tag">{{ tag }}</a>
 						{% endfor %}
 					</div>
 					{% endif %}

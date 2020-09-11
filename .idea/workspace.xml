@@ -23,48 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-29-welcome-to-jekyll.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-abstraction-as-art.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-flower-care-guide.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-how-to-plan-a-camping-trip.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-night-city-lights.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-premiere-on-broadway.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-the-most-popular-mistakes.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-23-the-path-to-self-perfection.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-05-29-welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_draft/2020-05-29-welcome-to-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-06-29-redirect-test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/categories/linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/linux/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/category/linux.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/abstraction-as-art/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/flower-care-guide/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/how-to-plan-a-camping-trip/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/night-city-lights/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/premiere-on-broadway/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/the-most-popular-mistakes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/the-path-to-self-perfection/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/linux/welcome-to-jekyll/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/post/123456789/my-amazing-post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/redirect-test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/redirects.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/art/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/cities/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/flowers/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/guide/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/jekyll/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/life/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/lifehacks/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/rest/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/trip/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-07-10-how-to-reduce-php-7-and-wordpress-memory-usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-07-10-how-to-reduce-php-7-and-wordpress-memory-usage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599135415733</updated>
       <workItem from="1599135417561" duration="2267000" />
-      <workItem from="1599770454925" duration="10225000" />
+      <workItem from="1599770454925" duration="12834000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit">
       <created>1599135438895</created>
@@ -283,7 +242,56 @@
       <option name="project" value="LOCAL" />
       <updated>1599783416019</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="- redirect working">
+      <created>1599784819118</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599784819118</updated>
+    </task>
+    <task id="LOCAL-00021" summary="- redirect working">
+      <created>1599788447440</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1599788447440</updated>
+    </task>
+    <task id="LOCAL-00022" summary="- safe gen">
+      <created>1599788532563</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1599788532563</updated>
+    </task>
+    <task id="LOCAL-00023" summary="- safe gen">
+      <created>1599788856170</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1599788856170</updated>
+    </task>
+    <task id="LOCAL-00024" summary="- safe gen">
+      <created>1599788938213</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1599788938213</updated>
+    </task>
+    <task id="LOCAL-00025" summary="- safe gen">
+      <created>1599788978836</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599788978836</updated>
+    </task>
+    <task id="LOCAL-00026" summary="- safe gen">
+      <created>1599789102058</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1599789102058</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +321,8 @@
     <MESSAGE value="- cleanup" />
     <MESSAGE value="- commit sites" />
     <MESSAGE value="- redirect working" />
-    <option name="LAST_COMMIT_MESSAGE" value="- redirect working" />
+    <MESSAGE value="- safe gen" />
+    <option name="LAST_COMMIT_MESSAGE" value="- safe gen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3687" y="98" width="1653" height="882" key="DiffContextDialog" timestamp="1599774606648">
@@ -324,10 +333,10 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4002" y="174" key="SettingsEditor/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599136492742" />
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599783417239">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599789103718">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599783417239" />
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599789103718" />
     <state x="3687" y="98" width="1653" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599783270032">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
@@ -336,13 +345,13 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4293" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599147151163" />
-    <state x="4205" y="262" width="616" height="580" key="find.popup" timestamp="1599773190701">
+    <state x="4205" y="262" width="616" height="580" key="find.popup" timestamp="1599788259942">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4205" y="262" width="616" height="580" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599773190701" />
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599783594001">
+    <state x="4205" y="262" width="616" height="580" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599788259942" />
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599788825558">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599783594001" />
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599788825558" />
   </component>
 </project>

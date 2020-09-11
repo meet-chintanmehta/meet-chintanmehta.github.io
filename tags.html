@@ -10,7 +10,7 @@ permalink: /tags/
   <ul class="tags-list">
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-    <li class="tags-item"><a href="#{{ this_word | cgi_escape }}" class="tags-link">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
+    <li class="tags-item"><a href="{{ site.baseurl }}/tags/{{ this_word | slugify }}" class="tags-link">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></a></li>
   {% endunless %}{% endfor %}
   </ul>
 
