@@ -10,7 +10,7 @@ permalink: /categories/
     <ul class="categories-list tags-list">
         {% for item in (0..site.categories.size) %}{% unless forloop.last %}
         {% capture this_word %}{{ category_words[item] | strip_newlines }}{% endcapture %}
-        <li class="categories-item tags-item"><a href="#{{ this_word | cgi_escape }}" class="categories-link tags-link">{{ this_word }} <span>{{ site.categories[this_word].size }}</span></a></li>
+        <li class="categories-item tags-item"><a href="{{ site.baseurl }}/categories/{{ this_word | slugify }}" class="categories-link tags-link">{{ this_word }} <span>{{ site.categories[this_word].size }}</span></a></li>
         {% endunless %}{% endfor %}
     </ul>
 
