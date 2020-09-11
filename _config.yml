@@ -54,6 +54,10 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 paginate: 7
 paginate_path: "/page/:num"

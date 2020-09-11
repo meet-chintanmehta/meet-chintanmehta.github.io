@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Redirect Test",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/redirect-test/",
+      "date"     : "2020-06-29 11:05:55 -0400"
+    } ,
+  
+    {
       "title"    : "Welcome to Jekyll! 3",
       "category" : "",
       "tags"     : "Jekyll",
