@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction",
+      "category" : "",
+      "tags"     : "mysql, nodejs, and sequelize",
+      "url"      : "/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/",
+      "date"     : "2020-09-16 11:05:55 -0400"
+    } ,
+  
+    {
       "title"    : "Resolved: “Could not store password” for MySQL workbench community + ubuntu 18",
       "category" : "",
       "tags"     : "mysql ubuntu, ubuntu mysql password, and mysql workbench password error",

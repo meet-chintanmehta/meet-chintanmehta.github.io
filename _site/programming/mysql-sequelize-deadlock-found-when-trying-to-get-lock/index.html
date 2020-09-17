@@ -8,10 +8,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Tags Archive</title>
+  <title>Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction</title>
   <meta name='description' content='Read about travel, food, reviews and technical solutions.'>
 
-  <link rel="canonical" href="https://www.techiepie.com//tags/">
+  <link rel="canonical" href="https://www.techiepie.com//programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/">
   <link rel="alternate" type="application/rss+xml" title="Techiepie.com" href="/feed.xml">
 
   <!-- Google Font -->
@@ -290,210 +290,328 @@
 
   
 
-      <div class="container">
+      <script type="application/ld+json">
+    
+
+    {
+        "@context":"http://schema.org",
+        "@type":"BlogPosting",
+        "headline":"Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction",
+        "genre":"",
+        "keywords":"",
+        "wordCount":"2051",
+         "url":"https://www.techiepie.com//programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/", 
+        "datePublished":"2020-09-16",
+        "author": {
+        "@type": "Person",
+        "name": "Chintan Mehta",
+        "sameAs": [
+            "https://en.gravatar.com/meetchintanmehta"
+        ]
+    },
+        "publisher":{
+                "@type": "Person",
+                "name": "Chintan Mehta",
+                "sameAs": [
+                    "https://en.gravatar.com/meetchintanmehta"
+                ],
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb",
+                "url": "https://www.techiepie.com/"
+            }
+        },
+        "mainEntityOfPage":{
+            "@type":"WebPage",
+            "@id":"https://www.techiepie.com//programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/"
+        },
+        "articleBody":"Sequelize with MySql can throw Deadlock found when trying to get lock.SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction\n at Query.formatError (/usr/local/xxx/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)\n at Query.handler [as onResult] (/usr/local/xxx/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)\n at Query.execute (/usr/local/xxx/node_modules/mysql2/lib/commands/command.js:30:14)\n at Connection.handlePacket (/usr/local/xxx/node_modules/mysql2/lib/connection.js:408:32)\n at PacketParser.Connection.packetParser.p [as onPacket] (/usr/local/xxx/node_modules/mysql2/lib/connection.js:70:12)\n at PacketParser.executeStart (/usr/local/xxx/node_modules/mysql2/lib/packet_parser.js:75:16)\n at TLSSocket.secureSocket.on.data (/usr/local/xxx/node_modules/mysql2/lib/connection.js:328:25)\n at TLSSocket.emit (events.js:198:13)\n at addChunk (_stream_readable.js:288:12)\n at readableAddChunk (_stream_readable.js:269:11)\n at TLSSocket.Readable.push (_stream_readable.js:224:10)\n at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)One of the reasons such error could occur is, usage of FOR UPDATE in MySql select query.&amp;nbsp;MySQL locks range-type if where condition in FOR UPDATE is not UNIQUE keys.&amp;nbsp;                  Solution:Add a&amp;nbsp;unique key&amp;nbsp;constraint to all columns which are in&amp;nbsp;where condition&amp;nbsp;of SELECT query where FOR UPDATE is used"
+    }
+</script>
+
+
+<div class="container">
 	<div class="row">
-		<article class="col col-12 col-t-10 push-t-1 page">
-			<div class="page-content">
-				<div class="page-head">
-					<h1 class="page-title">Tags Archive</h1>
-				</div>
+		<article class="col col-12 col-t-8 post">
+			<div class="post-content">
 
-				<div class="page-body">
+				<div class="post-head">
 					
-
-
-<div class="tags">
-  <ul class="tags-list">
-  
-    
-    <li class="tags-item"><a href="/tags/php-memory-error" class="tags-link">PHP memory error <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/fix-broken-install-ubuntu" class="tags-link">fix broken install ubuntu <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/free-up-boot" class="tags-link">free up /boot <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/mysql" class="tags-link">mysql <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/mysql-ubuntu" class="tags-link">mysql ubuntu <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/mysql-workbench-password-error" class="tags-link">mysql workbench password error <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/no-space-left-error" class="tags-link">no space left error <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/nodejs" class="tags-link">nodejs <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/sequelize" class="tags-link">sequelize <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/ubuntu-boot" class="tags-link">ubuntu /boot <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/ubuntu-mysql-password" class="tags-link">ubuntu mysql password <span>1</span></a></li>
-  
-    
-    <li class="tags-item"><a href="/tags/wordpress-php" class="tags-link">wordpress php <span>1</span></a></li>
-  
-  </ul>
-
-  <hr>
-
-  
-    
-  <h2 class="tags-title" id="PHP+memory+error">PHP memory error</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/web/how-to-reduce-php-7-and-wordpress-memory-usage/">How to Reduce PHP 7+ and WordPress Memory Usage</a> | <small><span class="tag-date">09 Jul 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="fix+broken+install+ubuntu">fix broken install ubuntu</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/">In ubuntu how to free up more space in /boot when /boot has no free disk space!</a> | <small><span class="tag-date">12 Jun 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="free+up+%2Fboot">free up /boot</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/">In ubuntu how to free up more space in /boot when /boot has no free disk space!</a> | <small><span class="tag-date">12 Jun 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="mysql">mysql</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/">Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction</a> | <small><span class="tag-date">16 Sep 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="mysql+ubuntu">mysql ubuntu</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/">Resolved: “Could not store password” for MySQL workbench community + ubuntu 18</a> | <small><span class="tag-date">14 Jul 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="mysql+workbench+password+error">mysql workbench password error</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/">Resolved: “Could not store password” for MySQL workbench community + ubuntu 18</a> | <small><span class="tag-date">14 Jul 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="no+space+left+error">no space left error</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/">In ubuntu how to free up more space in /boot when /boot has no free disk space!</a> | <small><span class="tag-date">12 Jun 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="nodejs">nodejs</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/">Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction</a> | <small><span class="tag-date">16 Sep 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="sequelize">sequelize</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/">Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction</a> | <small><span class="tag-date">16 Sep 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="ubuntu+%2Fboot">ubuntu /boot</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/">In ubuntu how to free up more space in /boot when /boot has no free disk space!</a> | <small><span class="tag-date">12 Jun 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="ubuntu+mysql+password">ubuntu mysql password</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/">Resolved: “Could not store password” for MySQL workbench community + ubuntu 18</a> | <small><span class="tag-date">14 Jul 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-    
-  <h2 class="tags-title" id="wordpress+php">wordpress php</h2>
-  <div class="tags-group">
-    
-    <div class="tag-item">
-      <div class="tag-text">
-        <a class="tag-link" href="/web/how-to-reduce-php-7-and-wordpress-memory-usage/">How to Reduce PHP 7+ and WordPress Memory Usage</a> | <small><span class="tag-date">09 Jul 2020</span></small>
-      </div>
-    </div>
-    
-  </div>
-  
-</div> <!-- /.tags -->
+					<div class="post-tag">
+						
+						<a href="/categories/programming" class="tag">programming</a>
+						
+					</div>
+					
+					<h1 class="post-title">Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction</h1>
+					<div class="post-info">
+						<div class="post-info-author">
+							<div class="info-author-avatar" style="background-image: url('https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb')"></div>
+							<span>by</span>
+							<span class="info-author-name">Chintan Mehta</span>
+						</div>
+						<div class="post-date">
+							<span>
+								<time datetime="2020-09-16T11:05:55-04:00">Sep 16, 2020</time>
+							</span>
+						</div>
+					</div>
 				</div>
+
+				<div class="post-body">
+					<p>Sequelize with MySql can throw <strong>Deadlock found when trying to get lock</strong>.</p>
+<p><code>SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction\n at Query.formatError (/usr/local/xxx/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)\n at Query.handler [as onResult] (/usr/local/xxx/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)\n at Query.execute (/usr/local/xxx/node_modules/mysql2/lib/commands/command.js:30:14)\n at Connection.handlePacket (/usr/local/xxx/node_modules/mysql2/lib/connection.js:408:32)\n at PacketParser.Connection.packetParser.p [as onPacket] (/usr/local/xxx/node_modules/mysql2/lib/connection.js:70:12)\n at PacketParser.executeStart (/usr/local/xxx/node_modules/mysql2/lib/packet_parser.js:75:16)\n at TLSSocket.secureSocket.on.data (/usr/local/xxx/node_modules/mysql2/lib/connection.js:328:25)\n at TLSSocket.emit (events.js:198:13)\n at addChunk (_stream_readable.js:288:12)\n at readableAddChunk (_stream_readable.js:269:11)\n at TLSSocket.Readable.push (_stream_readable.js:224:10)\n at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)</code><code></code><code></code></p>
+<p>One of the reasons such error could occur is, usage of <strong>FOR UPDATE</strong> in MySql select query.&nbsp;<span style="font-weight: 400;">MySQL locks </span><b>range-type</b><span style="font-weight: 400;"> if where condition in FOR UPDATE is not UNIQUE keys.&nbsp;</span></p>
+
+      <!-- horizontal responsive -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="pub-6443490091595677"
+           data-ad-slot="6872869883"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+
+<p><strong>Solution:</strong></p>
+<p>Add a&nbsp;<strong>unique key&nbsp;</strong>constraint to all columns which are in&nbsp;<strong>where </strong>condition&nbsp;of SELECT query where FOR UPDATE is used</p>
+					
+					
+					<div class="post-tag">
+						
+						<a href="/tags/mysql" class="tag">mysql</a>
+						
+						<a href="/tags/nodejs" class="tag">nodejs</a>
+						
+						<a href="/tags/sequelize" class="tag">sequelize</a>
+						
+					</div>
+					
+					<div class="post-share">
+						<ul class="share-list list-reset">
+							<li class="share-item">
+								<a class="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.techiepie.com//programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Facebook" rel="nofollow">
+									<i class="ion ion-logo-facebook"></i>
+								</a>
+							</li>
+					
+							<li class="share-item">
+								<a class="share-twitter" href="https://twitter.com/intent/tweet?text=Solved:%20SequelizeDatabaseError:%20Deadlock%20found%20when%20trying%20to%20get%20lock;%20try%20restarting%20transaction&url=https://www.techiepie.com//programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Twitter" rel="nofollow">
+									<i class="ion ion-logo-twitter"></i>
+								</a>
+							</li>
+					
+							<li class="share-item">
+								<a class="share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.techiepie.com//programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/&title=Solved:%20SequelizeDatabaseError:%20Deadlock%20found%20when%20trying%20to%20get%20lock;%20try%20restarting%20transaction&summary=&source=Techiepie.com"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on LinkedIn" rel="nofollow">
+									<i class="ion ion-logo-linkedin"></i>
+								</a>
+							</li>
+					
+							<li class="share-item">
+								<a class="share-pinterest" href="http://pinterest.com/pin/create/button/?url=https://www.techiepie.com//programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/&amp;media=https://www.techiepie.com//img/&amp;description=Solved:%20SequelizeDatabaseError:%20Deadlock%20found%20when%20trying%20to%20get%20lock;%20try%20restarting%20transaction"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Pinterest" rel="nofollow">
+									<i class="ion ion-logo-pinterest"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="post-navigation">
+					
+					<a href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/" class="prev">
+						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Previous Article</div>
+						<h2 class="post-nav-title">Resolved: “Could not store password” for MySQL workbench community + ubuntu 18</h2>
+					</a>
+					 
+				</div>
+
 			</div>
-		</article> <!-- /.page -->
+			
+				<div class="comments">
+  <div id="disqus_thread" class="article-comments"></div>
+  <script>
+    (function () {
+      var d = document, s = d.createElement('script');
+      s.src = '//techiepie-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+</div> <!-- /.comments -->
+			
+	</article> <!-- /.post -->
+
+	<div class="col col-12 col-t-4">
+		<aside class="sidebar">
+  
+  
+  <div class="widget widget-recent">
+    <h3 class="widget-title">Recent Posts</h3>
+    
+    <div class="recent-posts">
+      
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/">Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction</a></h6>
+        <div class="recent-date">
+          <time datetime="2020-09-16T11:05:55-04:00">September 16, 2020</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      <div class="recent-header">
+        <a class="recent-image" href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/" style="background-image: url(/img/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18)"></a>
+      </div>
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/">Resolved: “Could not store password” for MySQL workbench community + ubuntu 18</a></h6>
+        <div class="recent-date">
+          <time datetime="2020-07-14T20:00:00-04:00">July 14, 2020</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/web/how-to-reduce-php-7-and-wordpress-memory-usage/">How to Reduce PHP 7+ and WordPress Memory Usage</a></h6>
+        <div class="recent-date">
+          <time datetime="2020-07-09T20:00:00-04:00">July 9, 2020</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      <div class="recent-header">
+        <a class="recent-image" href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/" style="background-image: url(/img/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.png)"></a>
+      </div>
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/">In ubuntu how to free up more space in /boot when /boot has no free disk space!</a></h6>
+        <div class="recent-date">
+          <time datetime="2020-06-12T20:00:00-04:00">June 12, 2020</time>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+
+  
+  <div class="widget widget-adblock">
+    <!-- responsive-square -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="pub-6443490091595677"
+         data-ad-slot="4390192689"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+  </div>
+  
+
+  
+
+  <div class="widget widget-tags">
+    <h3 class="widget-title">Tag Cloud</h3>
+     
+    <ul class="tag-list list-reset">
+    
+      
+        <li class="tag-item"><a href="/tags/php-memory-error" class="tag">PHP memory error</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/fix-broken-install-ubuntu" class="tag">fix broken install ubuntu</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/free-up-boot" class="tag">free up /boot</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/mysql" class="tag">mysql</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/mysql-ubuntu" class="tag">mysql ubuntu</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/mysql-workbench-password-error" class="tag">mysql workbench password error</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/no-space-left-error" class="tag">no space left error</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/nodejs" class="tag">nodejs</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/sequelize" class="tag">sequelize</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/ubuntu-boot" class="tag">ubuntu /boot</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/ubuntu-mysql-password" class="tag">ubuntu mysql password</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/wordpress-php" class="tag">wordpress php</a></li>
+      
+    
+    
+    </ul>
+  </div>
+
+  <div class="widget widget-tags">
+    <h3 class="widget-title">Categories</h3>
+     
+    <ul class="tag-list list-reset">
+      
+      
+      <li class="tag-item"><a href="/categories/linux" class="tag">linux</a></li>
+      
+      
+      
+      <li class="tag-item"><a href="/categories/programming" class="tag">programming</a></li>
+      
+      
+      
+      <li class="tag-item"><a href="/categories/web" class="tag">web</a></li>
+      
+      
+      
+    </ul>
+  </div>
+  
+</aside> <!-- /.sidebar -->
+	</div>
+
 	</div>
 </div>
 

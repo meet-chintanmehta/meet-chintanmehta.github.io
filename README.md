@@ -180,7 +180,7 @@ add `--trace` to debug
 
 Prod Build
 
-`JEKYLL_ENV=production bundle exec`
+`JEKYLL_ENV=production bundle exec jekyll build`
 
 Push to gh-pages
 
