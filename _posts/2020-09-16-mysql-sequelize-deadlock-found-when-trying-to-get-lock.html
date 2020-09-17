@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction"
+date:   2020-09-16 18:05:55 +0300
+tags:   [mysql, nodejs, sequelize]
+categories: [programming]
+ads: true
+
+---
+<p>Sequelize with MySql can throw <strong>Deadlock found when trying to get lock</strong>.</p>
+<p><code>SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction\n at Query.formatError (/usr/local/xxx/node_modules/sequelize/lib/dialects/mysql/query.js:247:16)\n at Query.handler [as onResult] (/usr/local/xxx/node_modules/sequelize/lib/dialects/mysql/query.js:68:23)\n at Query.execute (/usr/local/xxx/node_modules/mysql2/lib/commands/command.js:30:14)\n at Connection.handlePacket (/usr/local/xxx/node_modules/mysql2/lib/connection.js:408:32)\n at PacketParser.Connection.packetParser.p [as onPacket] (/usr/local/xxx/node_modules/mysql2/lib/connection.js:70:12)\n at PacketParser.executeStart (/usr/local/xxx/node_modules/mysql2/lib/packet_parser.js:75:16)\n at TLSSocket.secureSocket.on.data (/usr/local/xxx/node_modules/mysql2/lib/connection.js:328:25)\n at TLSSocket.emit (events.js:198:13)\n at addChunk (_stream_readable.js:288:12)\n at readableAddChunk (_stream_readable.js:269:11)\n at TLSSocket.Readable.push (_stream_readable.js:224:10)\n at TLSWrap.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)</code><code></code><code></code></p>
+<p>One of the reasons such error could occur is, usage of <strong>FOR UPDATE</strong> in MySql select query.&nbsp;<span style="font-weight: 400;">MySQL locks </span><b>range-type</b><span style="font-weight: 400;"> if where condition in FOR UPDATE is not UNIQUE keys.&nbsp;</span></p>
+{% include post-ad.html %}
+<p><strong>Solution:</strong></p>
+<p>Add a&nbsp;<strong>unique key&nbsp;</strong>constraint to all columns which are in&nbsp;<strong>where </strong>condition&nbsp;of SELECT query where FOR UPDATE is used</p>
