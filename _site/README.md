@@ -180,8 +180,12 @@ add `--trace` to debug
 
 Prod Build
 
-`JEKYLL_ENV=production bundle exec`
+`JEKYLL_ENV=production bundle exec jekyll build`
 
 Push to gh-pages
 
 `push-dir --dir=_site --branch=gh-pages`
+
+If required delete local branch by
+
+`git branch -D gh-pages-65c7f5c`

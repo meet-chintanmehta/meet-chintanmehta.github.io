@@ -185,3 +185,7 @@ Prod Build
 Push to gh-pages
 
 `push-dir --dir=_site --branch=gh-pages`
+
+If required delete local branch by
+
+`git branch -D gh-pages-65c7f5c`

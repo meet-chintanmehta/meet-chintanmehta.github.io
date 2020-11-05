@@ -23,26 +23,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/android-apps/how-to-remove-chinese-apps-from-your-android-phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/android-apps/how-to-remove-chinese-apps-from-your-android-phone.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/categories/linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/categories/programming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/programming/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/categories/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/category/android-apps.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/category/android-apps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/category/linux.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/category/linux.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/category/uncategorized.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/category/uncategorized.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/category/web.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/category/web.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/category-android-apps/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/category-android-apps/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/category-linux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/category-linux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/category-web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/category-web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/tag-fix-broken-install-ubuntu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/tag-fix-broken-install-ubuntu/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/tag-free-up-boot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/tag-free-up-boot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/tag-no-space-left-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/tag-no-space-left-error/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/redirects/tag-ubuntu-boot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/redirects/tag-ubuntu-boot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/fix-broken-install-ubuntu.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/fix-broken-install-ubuntu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/free-up-boot.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/free-up-boot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/no-space-left-error.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/no-space-left-error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/ubuntu-boot.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/ubuntu-boot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/fix-broken-install-ubuntu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/fix-broken-install-ubuntu/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/free-up-boot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/free-up-boot/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/mysql-ubuntu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/mysql-ubuntu/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/mysql-workbench-password-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/mysql-workbench-password-error/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/mysql/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/mysql/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/no-space-left-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/no-space-left-error/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/nodejs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/nodejs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/php-memory-error/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/php-memory-error/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/sequelize/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/sequelize/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ubuntu-boot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ubuntu-boot/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/ubuntu-mysql-password/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/ubuntu-mysql-password/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/tags/wordpress-php/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/wordpress-php/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/uncategorized/hello-world.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/uncategorized/hello-world.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/web/how-to-reduce-php-7-and-wordpress-memory-usage/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +92,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="1-jekyll-setup" />
-                    <option name="lastUsedInstant" value="1599797247" />
+                    <option name="lastUsedInstant" value="1600310759" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="gh-pages-65c7f5c" />
+                    <option name="lastUsedInstant" value="1600310631" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="gh-pages-703b14a" />
@@ -99,9 +131,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_draft" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -109,18 +142,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/_draft" />
+      <recent name="$PROJECT_DIR$/_includes" />
+      <recent name="$PROJECT_DIR$/_redirects" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/_draft" />
       <recent name="$PROJECT_DIR$/_includes" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_draft" />
-      <recent name="$PROJECT_DIR$/_includes" />
-      <recent name="$PROJECT_DIR$/_redirects" />
-      <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -135,7 +168,9 @@
       <workItem from="1599770454925" duration="21546000" />
       <workItem from="1599825474203" duration="597000" />
       <workItem from="1599836943907" duration="1119000" />
-      <workItem from="1600309586610" duration="934000" />
+      <workItem from="1600309586610" duration="1281000" />
+      <workItem from="1603736932856" duration="599000" />
+      <workItem from="1604584438731" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit">
       <created>1599135438895</created>
@@ -410,7 +445,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600310416838</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add new post&#10;ads improvement">
+      <created>1600310588306</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1600310588306</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add new post&#10;ads improvement">
+      <created>1600310704103</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1600310704103</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,14 +504,18 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="3687" y="98" width="1653" height="882" key="DiffContextDialog/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599774606648" />
+    <state x="3587" y="0" width="1853" height="1080" key="FileDocumentManager.FileCacheConflict" timestamp="1600310844411">
+      <screen x="3520" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3587" y="0" width="1853" height="1080" key="FileDocumentManager.FileCacheConflict/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1600310844411" />
     <state x="4002" y="174" key="SettingsEditor" timestamp="1599136492742">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4002" y="174" key="SettingsEditor/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599136492742" />
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1600310418343">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1600310707590">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1600310418343" />
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1600310707590" />
     <state x="3687" y="98" width="1653" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599783270032">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
@@ -475,9 +528,9 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4205" y="262" width="742" height="612" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599796071120" />
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599793594456">
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1604585519608">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599793594456" />
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1604585519608" />
   </component>
 </project>
