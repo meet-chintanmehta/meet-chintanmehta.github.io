@@ -8,10 +8,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>programming</title>
-  <meta name='description' content='Read about travel, food, reviews and technical solutions.'>
+  <title>How to limit memory and processor usage in Windows 10 WSL2</title>
+  <meta name='description' content='Have you ever encountered Vmmem on windows 10 wsl2 takes over 90% of RAM and wondering how to resolve it?'>
 
-  <link rel="canonical" href="https://www.techiepie.com//categories/programming/">
+  <link rel="canonical" href="https://www.techiepie.com//windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/">
   <link rel="alternate" type="application/rss+xml" title="Techiepie.com" href="/feed.xml">
 
   <!-- Google Font -->
@@ -318,65 +318,250 @@
 
   
 
-      <div class="container">
-	<div class="row">
-		<div class="col col-12 col-t-8">
-			<div class="row">
-				<h1>Archive of posts with category 'programming'</h1>
-				
-				<article class="article col col-12 col-t-6">
-					<div class="article-box">
-						<div class="article-head">
-							<a href="/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/" class="article-image" style="background-image: url(/img/)">
-							<div class="image-overlay">
-								<span class="image-overlay-text">S</span>
-							</div>
-							</a>
-						</div>
-						<div class="article-content">
-							<div class="article-info">
-								<div class="article-date">
-									<span class="date"><time datetime="2020-09-16T11:05:55-04:00">Sep 16, 2020</time></span>
-								</div>
-								<div class="article-tag">
-									
-									
-									<a href="/tags/mysql" class="tag">mysql</a>
-									
-									<a href="/tags/nodejs" class="tag">nodejs</a>
-									
-									<a href="/tags/sequelize" class="tag">sequelize</a>
-									
-									
-								</div>
-							</div>
-							<h2 class="article-title">
-								<a href="/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/">Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction</a>
-							</h2>
-							<p class="article-excerpt">Sequelize with MySql can throw Deadlock found when trying to get lock.
-SequelizeDatabaseError: Deadlock found when trying to get loc...</p>
-						</div>
-					</div>
-				</article> <!-- /.article -->
-				
-			</div>
-			<div class="row">
-  <div class="col col-12">
-    <div class="pagination">
-      <ul class="pagination-list list-reset">
-        
+      <script type="application/ld+json">
+    
 
-        
-      </ul>
-    </div> <!-- /.pagination -->
-  </div>
+    {
+        "@context":"http://schema.org",
+        "@type":"BlogPosting",
+        "headline":"How to limit memory and processor usage in Windows 10 WSL2",
+        "genre":"",
+        "keywords":"",
+        "wordCount":"2099",
+         "url":"https://www.techiepie.com//windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/", 
+        "datePublished":"2021-06-01",
+        "author": {
+        "@type": "Person",
+        "name": "Chintan Mehta",
+        "sameAs": [
+            "https://en.gravatar.com/meetchintanmehta"
+        ]
+    },
+        "publisher":{
+                "@type": "Person",
+                "name": "Chintan Mehta",
+                "sameAs": [
+                    "https://en.gravatar.com/meetchintanmehta"
+                ],
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb",
+                "url": "https://www.techiepie.com/"
+            }
+        },
+        "mainEntityOfPage":{
+            "@type":"WebPage",
+            "@id":"https://www.techiepie.com//windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/"
+        },
+        "articleBody":"We all love WSL2 and Windows10 for development work and it's really improving over time. WSL which was supposed to consume fewer resources has a bug and at times it could consume a huge (over 90%) RAM of your system.&amp;nbsp;There could be 2 solutions to this problem, and we can divide them into temporary and permanent categories.&amp;nbsp;Temporary solutionIn order to free memory simply restart/kill WSL. in order to kill WSL use the below command. wsl.exe --shutdownthis should free memory from your windows machine.Permanent SolutionIn order to permanently solve the problem, we need to restrict WSL to use system resources.Create a .wslconfig file at %UserProfile%\.wslconfig and use it to limit memory assigned to WSL2 on Windows 10.here is the standard wslconfig file for WSL2    [wsl2]	kernel=              # An absolute Windows path to a custom Linux kernel.	memory=              # How much memory to assign to the WSL2 VM.	processors=        # How many processors to assign to the WSL2 VM.	swap=                # How much swap space to add to the WSL2 VM. 0 for no swap file.	swapFile=            # An absolute Windows path to the swap vhd.	localhostForwarding= # Boolean specifying if ports bound to wildcard or localhost in the WSL2 VM should be connectable from the host via localhost:port (default true).	#  entries must be absolute Windows paths with escaped backslashes, for example C:\\Users\\Ben\\kernel	#  entries must be size followed by unit, for example 8GB or 512MB    In order to limit memory usage use the below configuration [wsl2]memory=2GBI hope this will solve your problem. If you have any questions, feel free to ask in the comment section."
+    }
+</script>
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<div class="post-image-box">
+				<div class="post-image" style="background-image: url(/img/wsl-windows-10-vmmem-memory-usage.jpg)"></div>
+			</div>
+		</div>
+	</div>
 </div>
 
-		</div>
-		<div class="col col-12 col-t-4">
-			<aside class="sidebar">
+
+<div class="container">
+	<div class="row">
+		<article class="col col-12 col-t-8 post">
+			<div class="post-content">
+
+				<div class="post-head">
+					
+					<div class="post-tag">
+						
+						<a href="/categories/windows" class="tag">windows</a>
+						
+					</div>
+					
+					<h1 class="post-title">How to limit memory and processor usage in Windows 10 WSL2</h1>
+					<div class="post-info">
+						<div class="post-info-author">
+							<div class="info-author-avatar" style="background-image: url('https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb')"></div>
+							<span>by</span>
+							<span class="info-author-name">Chintan Mehta</span>
+						</div>
+						<div class="post-date">
+							<span>
+								<time datetime="2021-06-01T20:00:00-04:00">Jun 01, 2021</time>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="post-body">
+					<p>We all love WSL2 and Windows10 for development work and it's really improving over time. WSL which was supposed to consume fewer resources has a bug and at times it could consume a huge (over 90%) RAM of your system.&nbsp;</p>
+<p>There could be 2 solutions to this problem, and we can divide them into temporary and permanent categories.&nbsp;</p>
+<p><strong>Temporary solution</strong></p>
+<ul>
+<li>In order to free memory simply restart/kill WSL. in order to kill WSL use the below command. <br /><code>wsl.exe --shutdown
+</code></li>
+<li>this should free memory from your windows machine.</li>
+</ul>
+<p><strong>Permanent Solution</strong></p>
+<ul>
+<li>In order to permanently solve the problem, we need to restrict WSL to use system resources.</li>
+<li><span>Create a <code>.wslconfig</code> file at </span><code class="language-text">%UserProfile%\.wslconfig</code><span> and use it to limit memory assigned to WSL2 on Windows 10.</span></li>
+<li>here is the standard wslconfig file for WSL2<br />
+<pre><code>
+    [wsl2]
+	kernel=<path>              # An absolute Windows path to a custom Linux kernel.
+	memory=<size>              # How much memory to assign to the WSL2 VM.
+	processors=<number>        # How many processors to assign to the WSL2 VM.
+	swap=<size>                # How much swap space to add to the WSL2 VM. 0 for no swap file.
+	swapFile=<path>            # An absolute Windows path to the swap vhd.
+	localhostForwarding=<bool> # Boolean specifying if ports bound to wildcard or localhost in the WSL2 VM should be connectable from the host via localhost:port (default true).
+
+	# <path> entries must be absolute Windows paths with escaped backslashes, for example C:\\Users\\Ben\\kernel
+	# <size> entries must be size followed by unit, for example 8GB or 512MB
+    </size></path></bool></path></size></number></size></path></code></pre>
+</li>
+<li>In order to limit memory usage use the below configuration <br />
+<pre><code>[wsl2]
+memory=2GB</code></pre>
+</li>
+</ul>
+<p>I hope this will solve your problem. If you have any questions, feel free to ask in the comment section.</p>
+					
+					
+					<div class="post-tag">
+						
+						<a href="/tags/windows-10" class="tag">windows 10</a>
+						
+						<a href="/tags/wsl" class="tag">wsl</a>
+						
+					</div>
+					
+					<div class="post-share">
+						<ul class="share-list list-reset">
+							<li class="share-item">
+								<a class="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.techiepie.com//windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Facebook" rel="nofollow">
+									<i class="ion ion-logo-facebook"></i>
+								</a>
+							</li>
+					
+							<li class="share-item">
+								<a class="share-twitter" href="https://twitter.com/intent/tweet?text=How%20to%20limit%20memory%20and%20processor%20usage%20in%20Windows%2010%20WSL2&url=https://www.techiepie.com//windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Twitter" rel="nofollow">
+									<i class="ion ion-logo-twitter"></i>
+								</a>
+							</li>
+					
+							<li class="share-item">
+								<a class="share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.techiepie.com//windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/&title=How%20to%20limit%20memory%20and%20processor%20usage%20in%20Windows%2010%20WSL2&summary=Have%20you%20ever%20encountered%20Vmmem%20on%20windows%2010%20wsl2%20takes%20over%2090%25%20of%20RAM%20and%20wondering%20how%20to%20resolve%20it?&source=Techiepie.com"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on LinkedIn" rel="nofollow">
+									<i class="ion ion-logo-linkedin"></i>
+								</a>
+							</li>
+					
+							<li class="share-item">
+								<a class="share-pinterest" href="http://pinterest.com/pin/create/button/?url=https://www.techiepie.com//windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/&amp;media=https://www.techiepie.com//img/wsl-windows-10-vmmem-memory-usage.jpg&amp;description=How%20to%20limit%20memory%20and%20processor%20usage%20in%20Windows%2010%20WSL2"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Pinterest" rel="nofollow">
+									<i class="ion ion-logo-pinterest"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="post-navigation">
+					
+					<a href="/tips%20&%20tricks/how-to-activate-tivo-stream-4k-in-canada/" class="prev">
+						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Previous Article</div>
+						<h2 class="post-nav-title">Solved: How to activate Tivo Stream 4k in Canada</h2>
+					</a>
+					 
+				</div>
+
+			</div>
+			
+				<div class="comments">
+  <div id="disqus_thread" class="article-comments"></div>
+  <script>
+    (function () {
+      var d = document, s = d.createElement('script');
+      s.src = '//techiepie-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+</div> <!-- /.comments -->
+			
+	</article> <!-- /.post -->
+
+	<div class="col col-12 col-t-4">
+		<aside class="sidebar">
   
   
+  <div class="widget widget-recent">
+    <h3 class="widget-title">Recent Posts</h3>
+    
+    <div class="recent-posts">
+      
+      <div class="recent-header">
+        <a class="recent-image" href="/windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/" style="background-image: url(/img/wsl-windows-10-vmmem-memory-usage.jpg)"></a>
+      </div>
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/">How to limit memory and processor usage in Windows 10 WSL2</a></h6>
+        <div class="recent-date">
+          <time datetime="2021-06-01T20:00:00-04:00">June 1, 2021</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/tips%20&%20tricks/how-to-activate-tivo-stream-4k-in-canada/">Solved: How to activate Tivo Stream 4k in Canada</a></h6>
+        <div class="recent-date">
+          <time datetime="2020-11-04T16:05:55-05:00">November 4, 2020</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/">Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction</a></h6>
+        <div class="recent-date">
+          <time datetime="2020-09-16T11:05:55-04:00">September 16, 2020</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      <div class="recent-header">
+        <a class="recent-image" href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/" style="background-image: url(/img/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18)"></a>
+      </div>
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/">Resolved: “Could not store password” for MySQL workbench community + ubuntu 18</a></h6>
+        <div class="recent-date">
+          <time datetime="2020-07-14T20:00:00-04:00">July 14, 2020</time>
+        </div>
+      </div>
+    </div>
+    
+  </div>
   
 
   
@@ -496,7 +681,8 @@ SequelizeDatabaseError: Deadlock found when trying to get loc...</p>
   </div>
   
 </aside> <!-- /.sidebar -->
-		</div>
+	</div>
+
 	</div>
 </div>
 

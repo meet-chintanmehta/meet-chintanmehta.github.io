@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "How to limit memory and processor usage in Windows 10 WSL2"
+description: "Have you ever encountered Vmmem on windows 10 wsl2 takes over 90% of RAM and wondering how to resolve it?"
+date:   2021-06-2 00:00:00
+tags:   [windows 10, wsl]
+categories: [windows]
+image: wsl-windows-10-vmmem-memory-usage.jpg
+ads: true
+---
+<p>We all love WSL2 and Windows10 for development work and it's really improving over time. WSL which was supposed to consume fewer resources has a bug and at times it could consume a huge (over 90%) RAM of your system.&nbsp;</p>
+<p>There could be 2 solutions to this problem, and we can divide them into temporary and permanent categories.&nbsp;</p>
+<p><strong>Temporary solution</strong></p>
+<ul>
+<li>In order to free memory simply restart/kill WSL. in order to kill WSL use the below command. <br /><code>wsl.exe --shutdown
+</code></li>
+<li>this should free memory from your windows machine.</li>
+</ul>
+<p><strong>Permanent Solution</strong></p>
+<ul>
+<li>In order to permanently solve the problem, we need to restrict WSL to use system resources.</li>
+<li><span>Create a <code>.wslconfig</code> file at </span><code class="language-text">%UserProfile%\.wslconfig</code><span> and use it to limit memory assigned to WSL2 on Windows 10.</span></li>
+<li>here is the standard wslconfig file for WSL2<br />
+<pre><code>
+    [wsl2]
+	kernel=<path>              # An absolute Windows path to a custom Linux kernel.
+	memory=<size>              # How much memory to assign to the WSL2 VM.
+	processors=<number>        # How many processors to assign to the WSL2 VM.
+	swap=<size>                # How much swap space to add to the WSL2 VM. 0 for no swap file.
+	swapFile=<path>            # An absolute Windows path to the swap vhd.
+	localhostForwarding=<bool> # Boolean specifying if ports bound to wildcard or localhost in the WSL2 VM should be connectable from the host via localhost:port (default true).
+
+	# <path> entries must be absolute Windows paths with escaped backslashes, for example C:\\Users\\Ben\\kernel
+	# <size> entries must be size followed by unit, for example 8GB or 512MB
+    </size></path></bool></path></size></number></size></path></code></pre>
+</li>
+<li>In order to limit memory usage use the below configuration <br />
+<pre><code>[wsl2]
+memory=2GB</code></pre>
+</li>
+</ul>
+<p>I hope this will solve your problem. If you have any questions, feel free to ask in the comment section.</p>
