@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prod-build": "JEKYLL_ENV=production bundle exec jekyll build",
     "deploy": "push-dir --dir=_site  --branch = gh-pages --cleanup"
 
   },
