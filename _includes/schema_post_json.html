@@ -1,0 +1,30 @@
+{% assign wordcount = include.content | size %}
+
+    {
+        "@context":"http://schema.org",
+        "@type":"BlogPosting",
+        "headline":"{{ include.headline }}",
+        "genre":"{{ include.category }}",
+        "keywords":"{{ include.keywords }}",
+        "wordCount":"{{ wordcount }}",
+        {% if include.link %} "url":"{{ site.url  | append: include.link }}", {% endif %}
+        "datePublished":"{{ include.date | | date: '%Y-%m-%d' }}",
+        {% include schema_author_json.html %},
+        "publisher":{
+                "@type": "Person",
+                "name": "{{ site.author-name }}",
+                "sameAs": [
+                    "{{ site.author-gravatar-url }}"
+                ],
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "{{ site.author-gravatar-image }}",
+                "url": "{{ site.url }}"
+            }
+        },
+        "mainEntityOfPage":{
+            "@type":"WebPage",
+            "@id":"{{ site.url | append: site.baseurl | append: include.link }}"
+        },
+        "articleBody":"{{ include.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
+    }

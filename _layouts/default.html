@@ -11,6 +11,33 @@
   {% include loader.html %}
   {% include header.html %}
 
+  {% if page.url == "/" %}
+    {% assign items = "" %}
+    {% for post in paginator.posts %}
+      {% capture list_item %}
+        {%
+          include schema_post_json.html
+          index=forloop.index
+          link=post.url
+          headline=post.title
+          date=post.date
+        %}
+      {% endcapture %}
+    {% assign items = items | append: list_item | append: "|||" %}
+  {% endfor %}
+
+  {% assign items = items | split: "|||" | join: ',' %}
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {{ items }}
+      ]
+    }
+  </script>
+  {% endif %}
+
       {{ content }}
 
   {% include footer.html %}

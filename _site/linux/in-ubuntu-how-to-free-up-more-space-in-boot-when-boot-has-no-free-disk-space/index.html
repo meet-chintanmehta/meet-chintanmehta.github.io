@@ -11,7 +11,7 @@
   <title>In ubuntu how to free up more space in /boot when /boot has no free disk space!</title>
   <meta name='description' content='Have you ever encountered below error: many of you might also have encountered below error while doing apt-get command the reason for the above error is your...'>
 
-  <link rel="canonical" href="http://localhost:4000/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/">
+  <link rel="canonical" href="https://www.techiepie.com//linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/">
   <link rel="alternate" type="application/rss+xml" title="Techiepie.com" href="/feed.xml">
 
   <!-- Google Font -->
@@ -119,6 +119,30 @@
               
                 
               
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
               
               <li class="menu-item"><a href="/categories/linux/" class="menu-link">linux</a></li>
               
@@ -129,6 +153,72 @@
               
               
               <li class="menu-item"><a href="/categories/web/" class="menu-link">web</a></li>
+              
+              
+                
+              
+                
+              
+              
+              <li class="menu-item"><a href="/categories/programming/" class="menu-link">programming</a></li>
+              
+              
+                
+              
+                
+              
+              
+              <li class="menu-item"><a href="/categories/tips-tricks/" class="menu-link">tips & tricks</a></li>
+              
+              
+                
+              
+                
+              
+              
+              <li class="menu-item"><a href="/categories/windows/" class="menu-link">windows</a></li>
+              
+              
+                
+              
+                
+              
+              
+              
+                
+              
+                
+              
+              
+              
+                
+              
+                
+              
+              
+              
+                
+              
+                
+              
+              
+              
+                
+              
+                
+              
+              
+              
+                
+              
+                
+              
+              
+              
+                
+              
+                
+              
               
               
                 
@@ -226,7 +316,47 @@
 
 
 
-      
+  
+
+      <script type="application/ld+json">
+    
+
+    {
+        "@context":"http://schema.org",
+        "@type":"BlogPosting",
+        "headline":"In ubuntu how to free up more space in /boot when /boot has no free disk space!",
+        "genre":"",
+        "keywords":"",
+        "wordCount":"4290",
+         "url":"https://www.techiepie.com//linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/", 
+        "datePublished":"2020-06-12",
+        "author": {
+        "@type": "Person",
+        "name": "Chintan Mehta",
+        "sameAs": [
+            "https://en.gravatar.com/meetchintanmehta"
+        ]
+    },
+        "publisher":{
+                "@type": "Person",
+                "name": "Chintan Mehta",
+                "sameAs": [
+                    "https://en.gravatar.com/meetchintanmehta"
+                ],
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb",
+                "url": "https://www.techiepie.com/"
+            }
+        },
+        "mainEntityOfPage":{
+            "@type":"WebPage",
+            "@id":"https://www.techiepie.com//linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/"
+        },
+        "articleBody":"Have you ever encountered below error:Error! Warning! The xxx MiB filesystem mounted at /boot has no free disk space!many of you might also have encountered below error while doing apt-get commandError: apt-get: No space left on devicethe reason for the above error is your /boot partition is out of space and why does it happen? As mentioned in ubuntu&amp;nbsp;help&amp;nbsp;it happens because of &amp;ndash;    LVM installs&amp;nbsp;and&amp;nbsp;encrypted installs&amp;nbsp;use a separate /boot partition. The partition by default is capable of holding only four or five kernels, and can fill to capacity quickly. To prevent your /boot partition from getting full, you need to configure automatic removal of old kernels, or manually remove old kernels regularly.Recently I came across such issue and I found plenty of answers of that, but none were directly helpful because my /boot parition had already 0 space and all of the approach needed to install some sort of dependency.I did some more digging and followed below step to make it working.                  please backup your system (for vps system you can create snapshot easily)    List all kernels using below command:dpkg --list 'linux-image*'    Display current kernel:uname -r    List all kernels EXCEPT current one and Make sure your current kernel isn&amp;rsquo;t on that list.dpkg -l linux-{image,headers}-&quot;[0-9]*&quot; | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d&quot;-&quot;` | grep -e '[0-9]'    Remove all kernels EXCEPT current one:dpkg -l linux-{image,headers}-&quot;[0-9]*&quot; | awk '/^ii/{ print $2}' | grep -v -e `uname -r | cut -f1,2 -d&quot;-&quot;` | grep -e '[0-9]' | xargs sudo apt-get -y purgeI was getting an error at step 4 and hence I had to do step 4.1                    Manually list and remove a few of old kernels using below commands:ls -lh /boot/*-3.13.0-119*;rm /boot/*-3.13.0-119*;replace 3.13.0 with your old kernel versions and double-check so you don&amp;rsquo;t mess up the existing kernel.            After doing it update your grub (very important step as without this step when I continued I ended up the non-working system on reboot.sudo update-grub            reboot the system and check its in working order, you may still see the same error and you can jump on step 5, no need to execute a command on step 4                Clear other stuff:sudo apt-get autoremove --purgeI was getting an error:E: Unmet dependencies. Try &amp;lsquo;apt &amp;ndash;fix-broken install&amp;rsquo; with no packages (or specify a solution).                    I had to dosudo apt --fix-broken install&amp;nbsp;to fix it            reboot the system and check its booting fine            run command mentioned in step 5                reboot the system, the system should boot fine and check /boot space it will have more free space.    run sudo apt-get update and other commands mentioned in&amp;nbsp;ubuntu help&amp;nbsp;to setup auto cleanup and update to latest stable kernelReference url:    https://askubuntu.com/a/1053826/1094550    https://askubuntu.com/a/963646/1094550"
+    }
+</script>
+
 <div class="container">
 	<div class="row">
 		<div class="col col-12">
@@ -333,7 +463,7 @@
 					<div class="post-share">
 						<ul class="share-list list-reset">
 							<li class="share-item">
-								<a class="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/"
+								<a class="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.techiepie.com//linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/"
 								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
 								title="Share on Facebook" rel="nofollow">
 									<i class="ion ion-logo-facebook"></i>
@@ -341,7 +471,7 @@
 							</li>
 					
 							<li class="share-item">
-								<a class="share-twitter" href="https://twitter.com/intent/tweet?text=In%20ubuntu%20how%20to%20free%20up%20more%20space%20in%20/boot%20when%20/boot%20has%20no%20free%20disk%20space!&url=http://localhost:4000/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/"
+								<a class="share-twitter" href="https://twitter.com/intent/tweet?text=In%20ubuntu%20how%20to%20free%20up%20more%20space%20in%20/boot%20when%20/boot%20has%20no%20free%20disk%20space!&url=https://www.techiepie.com//linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/"
 								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
 								title="Share on Twitter" rel="nofollow">
 									<i class="ion ion-logo-twitter"></i>
@@ -349,7 +479,7 @@
 							</li>
 					
 							<li class="share-item">
-								<a class="share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/&title=In%20ubuntu%20how%20to%20free%20up%20more%20space%20in%20/boot%20when%20/boot%20has%20no%20free%20disk%20space!&summary=Have%20you%20ever%20encountered%20below%20error:%20many%20of%20you%20might%20also%20have%20encountered%20below%20error%20while%20doing%20apt-get%20command%20the%20reason%20for%20the%20above%20error%20is%20your%20/boot%20partition%20is%20out%20of%20space%20and&source=Techiepie.com"
+								<a class="share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.techiepie.com//linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/&title=In%20ubuntu%20how%20to%20free%20up%20more%20space%20in%20/boot%20when%20/boot%20has%20no%20free%20disk%20space!&summary=Have%20you%20ever%20encountered%20below%20error:%20many%20of%20you%20might%20also%20have%20encountered%20below%20error%20while%20doing%20apt-get%20command%20the%20reason%20for%20the%20above%20error%20is%20your%20/boot%20partition%20is%20out%20of%20space%20and&source=Techiepie.com"
 								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
 								title="Share on LinkedIn" rel="nofollow">
 									<i class="ion ion-logo-linkedin"></i>
@@ -357,7 +487,7 @@
 							</li>
 					
 							<li class="share-item">
-								<a class="share-pinterest" href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/&amp;media=http://localhost:4000/img/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.png&amp;description=In%20ubuntu%20how%20to%20free%20up%20more%20space%20in%20/boot%20when%20/boot%20has%20no%20free%20disk%20space!"
+								<a class="share-pinterest" href="http://pinterest.com/pin/create/button/?url=https://www.techiepie.com//linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/&amp;media=https://www.techiepie.com//img/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.png&amp;description=In%20ubuntu%20how%20to%20free%20up%20more%20space%20in%20/boot%20when%20/boot%20has%20no%20free%20disk%20space!"
 								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
 								title="Share on Pinterest" rel="nofollow">
 									<i class="ion ion-logo-pinterest"></i>
@@ -383,7 +513,7 @@
   <script>
     (function () {
       var d = document, s = d.createElement('script');
-      s.src = '//techiepie_com.disqus.com/embed.js';
+      s.src = '//techiepie-com.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
@@ -405,13 +535,13 @@
     <div class="recent-posts">
       
       <div class="recent-header">
-        <a class="recent-image" href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/" style="background-image: url(/img/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18)"></a>
+        <a class="recent-image" href="/windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/" style="background-image: url(/img/wsl-windows-10-vmmem-memory-usage.jpg)"></a>
       </div>
       
       <div class="recent-content">
-        <h6 class="recent-title"><a href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/">Resolved: “Could not store password” for MySQL workbench community + ubuntu 18</a></h6>
+        <h6 class="recent-title"><a href="/windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/">How to limit memory and processor usage in Windows 10 WSL2</a></h6>
         <div class="recent-date">
-          <time datetime="2020-07-14T20:00:00-04:00">July 14, 2020</time>
+          <time datetime="2021-06-01T20:00:00-04:00">June 1, 2021</time>
         </div>
       </div>
     </div>
@@ -420,9 +550,20 @@
       
       
       <div class="recent-content">
-        <h6 class="recent-title"><a href="/web/how-to-reduce-php-7-and-wordpress-memory-usage/">How to Reduce PHP 7+ and WordPress Memory Usage</a></h6>
+        <h6 class="recent-title"><a href="/tips%20&%20tricks/how-to-activate-tivo-stream-4k-in-canada/">Solved: How to activate Tivo Stream 4k in Canada</a></h6>
         <div class="recent-date">
-          <time datetime="2020-07-09T20:00:00-04:00">July 9, 2020</time>
+          <time datetime="2020-11-04T16:05:55-05:00">November 4, 2020</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/">Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction</a></h6>
+        <div class="recent-date">
+          <time datetime="2020-09-16T11:05:55-04:00">September 16, 2020</time>
         </div>
       </div>
     </div>
@@ -430,13 +571,13 @@
     <div class="recent-posts">
       
       <div class="recent-header">
-        <a class="recent-image" href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/" style="background-image: url(/img/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.png)"></a>
+        <a class="recent-image" href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/" style="background-image: url(/img/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18)"></a>
       </div>
       
       <div class="recent-content">
-        <h6 class="recent-title"><a href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/">In ubuntu how to free up more space in /boot when /boot has no free disk space!</a></h6>
+        <h6 class="recent-title"><a href="/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/">Resolved: “Could not store password” for MySQL workbench community + ubuntu 18</a></h6>
         <div class="recent-date">
-          <time datetime="2020-06-12T20:00:00-04:00">June 12, 2020</time>
+          <time datetime="2020-07-14T20:00:00-04:00">July 14, 2020</time>
         </div>
       </div>
     </div>
@@ -472,11 +613,19 @@
       
     
       
+        <li class="tag-item"><a href="/tags/activate-tivo-stream-4k" class="tag">activate Tivo stream 4k</a></li>
+      
+    
+      
         <li class="tag-item"><a href="/tags/fix-broken-install-ubuntu" class="tag">fix broken install ubuntu</a></li>
       
     
       
         <li class="tag-item"><a href="/tags/free-up-boot" class="tag">free up /boot</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/mysql" class="tag">mysql</a></li>
       
     
       
@@ -492,6 +641,14 @@
       
     
       
+        <li class="tag-item"><a href="/tags/nodejs" class="tag">nodejs</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/sequelize" class="tag">sequelize</a></li>
+      
+    
+      
         <li class="tag-item"><a href="/tags/ubuntu-boot" class="tag">ubuntu /boot</a></li>
       
     
@@ -500,7 +657,15 @@
       
     
       
+        <li class="tag-item"><a href="/tags/windows-10" class="tag">windows 10</a></li>
+      
+    
+      
         <li class="tag-item"><a href="/tags/wordpress-php" class="tag">wordpress php</a></li>
+      
+    
+      
+        <li class="tag-item"><a href="/tags/wsl" class="tag">wsl</a></li>
       
     
     
@@ -517,7 +682,19 @@
       
       
       
+      <li class="tag-item"><a href="/categories/programming" class="tag">programming</a></li>
+      
+      
+      
+      <li class="tag-item"><a href="/categories/tips-tricks" class="tag">tips & tricks</a></li>
+      
+      
+      
       <li class="tag-item"><a href="/categories/web" class="tag">web</a></li>
+      
+      
+      
+      <li class="tag-item"><a href="/categories/windows" class="tag">windows</a></li>
       
       
       
@@ -560,7 +737,7 @@
         </div>
         <div class="footer-bottom">
           <div class="copyright">
-            <p>&copy; 2020 <a href="https://techiepie.com">Techiepie.com</a></p>
+            <p>&copy; 2021 <a href="https://techiepie.com">Techiepie.com</a></p>
             <p>Free theme by <a href="https://github.com/artemsheludko">Artem Sheludko</a></p>
           </div>
           <div class="footer-social">

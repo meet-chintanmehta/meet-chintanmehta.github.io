@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ef08a65-19a0-4704-acad-9ad8108a42d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2020-07-10-how-to-reduce-php-7-and-wordpress-memory-usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-07-10-how-to-reduce-php-7-and-wordpress-memory-usage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +44,23 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="1-jekyll-setup" />
-                    <option name="lastUsedInstant" value="1599775300" />
+                    <option name="lastUsedInstant" value="1604585953" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="gh-pages" />
-                    <option name="lastUsedInstant" value="1599775216" />
+                    <option name="branchName" value="gh-pages-32c336f" />
+                    <option name="lastUsedInstant" value="1604585905" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1599135814" />
+                    <option name="branchName" value="gh-pages-65c7f5c" />
+                    <option name="lastUsedInstant" value="1600310631" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="gh-pages-703b14a" />
+                    <option name="lastUsedInstant" value="1599797239" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="gh-pages-91fdcfd" />
+                    <option name="lastUsedInstant" value="1599796361" />
                   </RecentBranch>
                 </list>
               </option>
@@ -75,6 +83,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
@@ -87,15 +96,16 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/_layouts" />
+      <recent name="$PROJECT_DIR$/_draft" />
       <recent name="$PROJECT_DIR$/_includes" />
+      <recent name="$PROJECT_DIR$/_redirects" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/_draft" />
       <recent name="$PROJECT_DIR$/_includes" />
-      <recent name="$PROJECT_DIR$/_posts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -107,7 +117,13 @@
       <option name="presentableId" value="Default" />
       <updated>1599135415733</updated>
       <workItem from="1599135417561" duration="2267000" />
-      <workItem from="1599770454925" duration="12834000" />
+      <workItem from="1599770454925" duration="21546000" />
+      <workItem from="1599825474203" duration="597000" />
+      <workItem from="1599836943907" duration="1119000" />
+      <workItem from="1600309586610" duration="1281000" />
+      <workItem from="1603736932856" duration="599000" />
+      <workItem from="1604584438731" duration="1334000" />
+      <workItem from="1604585982785" duration="901000" />
     </task>
     <task id="LOCAL-00001" summary="- initial commit">
       <created>1599135438895</created>
@@ -291,7 +307,119 @@
       <option name="project" value="LOCAL" />
       <updated>1599789102058</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="- safe gen">
+      <created>1599789242265</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1599789242265</updated>
+    </task>
+    <task id="LOCAL-00028" summary="- safe gen removed">
+      <created>1599789259297</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1599789259297</updated>
+    </task>
+    <task id="LOCAL-00029" summary="- safe gen removed">
+      <created>1599789348680</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1599789348680</updated>
+    </task>
+    <task id="LOCAL-00030" summary="- safe gen removed">
+      <created>1599789590944</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1599789590944</updated>
+    </task>
+    <task id="LOCAL-00031" summary="- safe gen removed">
+      <created>1599790131273</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1599790131273</updated>
+    </task>
+    <task id="LOCAL-00032" summary="- safe gen removed">
+      <created>1599790172545</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1599790172545</updated>
+    </task>
+    <task id="LOCAL-00033" summary="- prod build">
+      <created>1599790401568</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1599790401568</updated>
+    </task>
+    <task id="LOCAL-00034" summary="- prod build">
+      <created>1599790988097</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1599790988097</updated>
+    </task>
+    <task id="LOCAL-00035" summary="- schema validator">
+      <created>1599796319689</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1599796319689</updated>
+    </task>
+    <task id="LOCAL-00036" summary="- add cname">
+      <created>1599797212454</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1599797212454</updated>
+    </task>
+    <task id="LOCAL-00037" summary="- added commands to readme">
+      <created>1599824236585</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1599824236585</updated>
+    </task>
+    <task id="LOCAL-00038" summary="- correct disqus">
+      <created>1599837244090</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1599837244090</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add new post&#10;ads improvement">
+      <created>1600310416838</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1600310416838</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add new post&#10;ads improvement">
+      <created>1600310588306</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1600310588306</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add new post&#10;ads improvement">
+      <created>1600310704103</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1600310704103</updated>
+    </task>
+    <task id="LOCAL-00042" summary="new blog">
+      <created>1604585884599</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1604585884599</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,21 +450,37 @@
     <MESSAGE value="- commit sites" />
     <MESSAGE value="- redirect working" />
     <MESSAGE value="- safe gen" />
-    <option name="LAST_COMMIT_MESSAGE" value="- safe gen" />
+    <MESSAGE value="- safe gen removed" />
+    <MESSAGE value="- prod build" />
+    <MESSAGE value="- schema validator" />
+    <MESSAGE value="- add cname" />
+    <MESSAGE value="- added commands to readme" />
+    <MESSAGE value="- correct disqus" />
+    <MESSAGE value="add new post&#10;ads improvement" />
+    <MESSAGE value="new blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="new blog" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3687" y="98" width="1653" height="882" key="DiffContextDialog" timestamp="1599774606648">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="3687" y="98" width="1653" height="882" key="DiffContextDialog/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599774606648" />
+    <state x="3587" y="0" width="1853" height="1080" key="FileDocumentManager.FileCacheConflict" timestamp="1600310844411">
+      <screen x="3520" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3587" y="0" width="1853" height="1080" key="FileDocumentManager.FileCacheConflict/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1600310844411" />
+    <state x="4309" y="160" width="399" height="758" key="RollbackChangesDialog" timestamp="1604585812457">
+      <screen x="3520" y="0" width="1920" height="1080" />
+    </state>
+    <state x="4309" y="160" width="399" height="758" key="RollbackChangesDialog/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1604585812457" />
     <state x="4002" y="174" key="SettingsEditor" timestamp="1599136492742">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4002" y="174" key="SettingsEditor/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599136492742" />
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1599789103718">
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2" timestamp="1604585886250">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599789103718" />
+    <state x="4108" y="271" width="800" height="536" key="Vcs.Push.Dialog.v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1604585886250" />
     <state x="3687" y="98" width="1653" height="882" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599783270032">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
@@ -345,13 +489,13 @@
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
     <state x="4293" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599147151163" />
-    <state x="4205" y="262" width="616" height="580" key="find.popup" timestamp="1599788259942">
+    <state x="4205" y="262" width="742" height="612" key="find.popup" timestamp="1604586249686">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4205" y="262" width="616" height="580" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599788259942" />
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1599788825558">
+    <state x="4205" y="262" width="742" height="612" key="find.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1604586249686" />
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1604585519608">
       <screen x="3520" y="0" width="1920" height="1080" />
     </state>
-    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1599788825558" />
+    <state x="4176" y="237" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/67.27.1533.873/3520.0.1920.1080@3520.0.1920.1080" timestamp="1604585519608" />
   </component>
 </project>

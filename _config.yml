@@ -4,7 +4,7 @@
 title: Techiepie.com
 description:  Read about travel, food, reviews and technical solutions. # this means to ignore newlines until "baseurl:"
 baseurl: # the subpath of your site, e.g. /blog
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.techiepie.com/" # the base hostname & protocol for your site, e.g. http://example.com
 logo: text # set as image or text
 logo-image:  # if logo is image give path
 logo-text: Techiepie.com  # if logo is text give text
@@ -12,20 +12,25 @@ logo-text: Techiepie.com  # if logo is text give text
 #-------------------------------
 # About Section
 author-name:   Chintan Mehta
+author-gravatar-image: "https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb"
+author-gravatar-url: "https://en.gravatar.com/meetchintanmehta"
 #author-avatar: 09.jpg
 
+collections:
+  redirects:
+    output: true
 
 #-------------------------------
 # Contact links
-facebook:  https://facebook.com/ # Add your Facebook handle
-twitter:   https://twitter.com/ # Add your Facebook handle
-instagram: https://www.instagram.com/ # Add your Facebook handle
-pinterest: https://www.pinterest.com/ # Add your Facebook handle
+facebook:   # Add your Facebook handle
+twitter:    # Add your Facebook handle
+instagram:  # Add your Facebook handle
+pinterest:  # Add your Facebook handle
 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: techiepie_com # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: techiepie-com # Add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
