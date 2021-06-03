@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Solved: Error - They system cannot find path specified for Adobe photoshop on windows 10"
+description: "With an update on windows 10 you must have encountered They system cannot find path specified for Adobe photoshop, here is the solution..."
+date:   2021-06-3 00:00:00
+tags:   [adobe, photoshop]
+categories: [windows]
+image: cannot-find-path-error-windows-10-adobe-photoshop.jpg
+ads: true
+---
+<p>After updating Windows 10, I started to encounter the error in Adobe Photoshop while <strong>Save for the Web.</strong></p>
+<p>The error simply says</p>
+<pre><code>The operation could not be completed.
+The system cannot find the path specified.
+</code></pre>
+<p>This issue is because of the Windows security feature, which you may have enabled. the feature is <strong>Controlled Folder Access</strong></p>
+<p>After spending some time and trying to get the Save for the Web feature working I found the answer. It was the main problem with Windows Security/Defender. In order to solve it please follow the below steps.</p>
+<ol>
+<li>Go to Windows Security</li>
+<li>Virus &amp; Threat Protection</li>
+<li>Virus &amp; Threat Protection Settings (Click on manage settings)</li>
+<li>Controlled Folder Access (Click on Manage Controlled Folder Access)</li>
+<li>From here there are two options
+{% include post-ad.html %}
+<ol>
+<li>The option that I would not recommend, you can simply disable Controlled Folder Access, this will make sure any app in future won't give such an error</li>
+<li>My recommended option: Add Adobe photoshop <strong>to allow through</strong>.
+<ol>
+<li>Click on Allow an app through Controlled folder access</li>
+<li>Click on Add an allowed app</li>
+<li>Select Adobe photoshop by either browsing all apps or looking into recently blocked apps</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<p>I hope this helps you and solves your problem. If you want to ask anything about or add anything to this solution, feel free to add a comment below.</p>
