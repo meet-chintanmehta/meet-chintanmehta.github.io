@@ -1,0 +1,67 @@
+[
+  
+    {
+      "title"    : "Solved: Intellij Spring boot Gradle Error - Web server failed to start. Port 8080 was already in use",
+      "category" : "",
+      "tags"     : "IntelliJ, Spring, Spring Boot, Gradle, and Java",
+      "url"      : "/programming/solved-intellij-spring-gradle-port-already-in-use/",
+      "date"     : "2022-05-11 20:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Solved: Error - The system cannot find path specified for Adobe photoshop on windows 10",
+      "category" : "",
+      "tags"     : "adobe and photoshop",
+      "url"      : "/windows/cannot-find-path-error-windows-photoshop/",
+      "date"     : "2021-06-02 20:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "How to limit memory and processor usage in Windows 10 WSL2",
+      "category" : "",
+      "tags"     : "windows 10 and wsl",
+      "url"      : "/windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/",
+      "date"     : "2021-06-01 20:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Solved: How to activate Tivo Stream 4k in Canada",
+      "category" : "",
+      "tags"     : "activate Tivo stream 4k",
+      "url"      : "/tips%20&%20tricks/how-to-activate-tivo-stream-4k-in-canada/",
+      "date"     : "2020-11-04 16:05:55 -0500"
+    } ,
+  
+    {
+      "title"    : "Solved: SequelizeDatabaseError: Deadlock found when trying to get lock; try restarting transaction",
+      "category" : "",
+      "tags"     : "mysql, nodejs, and sequelize",
+      "url"      : "/programming/mysql-sequelize-deadlock-found-when-trying-to-get-lock/",
+      "date"     : "2020-09-16 11:05:55 -0400"
+    } ,
+  
+    {
+      "title"    : "Resolved: “Could not store password” for MySQL workbench community + ubuntu 18",
+      "category" : "",
+      "tags"     : "mysql ubuntu, ubuntu mysql password, and mysql workbench password error",
+      "url"      : "/linux/resolved-could-not-store-password-for-mysql-workbench-community-ubuntu-18/",
+      "date"     : "2020-07-14 20:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "How to Reduce PHP 7+ and WordPress Memory Usage",
+      "category" : "",
+      "tags"     : "PHP memory error and wordpress php",
+      "url"      : "/web/how-to-reduce-php-7-and-wordpress-memory-usage/",
+      "date"     : "2020-07-09 20:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "In ubuntu how to free up more space in /boot when /boot has no free disk space!",
+      "category" : "",
+      "tags"     : "fix broken install ubuntu, free up /boot, no space left error, and ubuntu /boot",
+      "url"      : "/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/",
+      "date"     : "2020-06-12 20:00:00 -0400"
+    } 
+  
+]
