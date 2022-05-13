@@ -1,5 +1,6 @@
 .idea
 .idea/*
+.vscode
 .idea/workspace.xml
 .sass-cache
 .jekyll-metadata
