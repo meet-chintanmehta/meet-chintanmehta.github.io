@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Solved: Intellij Spring boot Gradle Error - Web server failed to start. Port 8080 was already in use"
+description: "Have you ever encountered the below error in a Spring boot Gradle app on your WINDOWS machine with IntelliJ IDEA?WEB SERVER FAILED TO START PORT **** WAS ALREADY IN USE"
+date:   2022-05-12 00:00:00
+tags:   [IntelliJ, Spring, Spring Boot, Gradle, Java]
+categories: [programming]
+image: Select-SDK-OK.png
+ads: true
+---
+<h1>Solved: Intellij Spring boot Gradle Error - Web server failed to start. Port 8080 was already in use.</h1>
+<p>Have you ever encountered the below error in a <strong>Spring boot Gradle</strong> app on your <strong>WINDOWS</strong> machine with <strong>IntelliJ</strong> IDEA?</p>
+<p><code><strong>WEB SERVER FAILED TO START PORT **** WAS ALREADY IN USE </strong></code></p>
+<p>There could be a couple of solutions that you can try.</p>
+<h2>Solution 1: Find and Kill the process consuming the port</h2>
+<ol>
+	<li>
+		<h3>Find a process consuming the port</h3>
+		Use the below command in the WINDOWS command prompt using ADMINISTRATOR or WINDOWS PowerShell using ADMINISTRATOR <br /><code>  netstat -a -n -p tcp -o | findstr 49415
+	</code> <br />The result of the above command could be either <br /><code>NO RECORDS</code>&nbsp; &nbsp;<span style="text-decoration: underline;">or</span> &nbsp; <br /><code>TCP    192.168.1.32:49415     52.226.139.180:443     ESTABLISHED     7536</code> <br />Note down the Process ID - last digits <code>7536</code> in our case.</li>
+	<li>
+		<h3>Kill the process</h3>
+		In order to kill the process using the below command <br /><code>kill --pid-- </code> <br />that is <br /><code>kill 7536</code></li>
+</ol>
+{% include post-ad.html %}
+<h2>Solution 2: Check the JDK version</h2>
+<p>If the Java SDK version is not your application supports then you can get such an error.</p>
+<ol>
+	<li>
+		<h1>Find the Java SDK version of the project in IntelliJ IDEA</h1>
+		In order to find the Java SDK version set for the project in IntelliJ IDEA editor, on a Windows machine
+		<img src="/img/File-ProjectStructure.png">
+		<ol>
+			<li>Click <strong>File</strong></li>
+			<li>Click on <strong>Project Structure</strong></li>
+			<li>On the left panel, under Project Settings, Click on the Project menu</li>
+			<li>Find the option of SDK set for the current project.</li>
+		</ol>
+		<img src="/img/Project-SDK.png">
+	</li>
+	<li>Edit the Java SDK for the project in IntelliJ IDEA <br />Once you find the SDK option as per the above steps, Select OR edit the SDK version of lower OR higher, and click OK. <br />Depending on the project you may need to set the SDK to the latest version or older version. Setting SDK to 1.8 should work in the most cases</li>
+	<img src="/img/Select-SDK-OK.png">
+</ol>

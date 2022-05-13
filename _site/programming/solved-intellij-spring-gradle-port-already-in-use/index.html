@@ -8,10 +8,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>fix broken install ubuntu</title>
-  <meta name='description' content='Read about travel, food, reviews and technical solutions.'>
+  <title>Solved: Intellij Spring boot Gradle Error - Web server failed to start. Port 8080 was already in use</title>
+  <meta name='description' content='Have you ever encountered the below error in a Spring boot Gradle app on your WINDOWS machine with IntelliJ IDEA?WEB SERVER FAILED TO START PORT **** WAS ALR...'>
 
-  <link rel="canonical" href="https://www.techiepie.com//tags/fix-broken-install-ubuntu/">
+  <link rel="canonical" href="https://www.techiepie.com//programming/solved-intellij-spring-gradle-port-already-in-use/">
   <link rel="alternate" type="application/rss+xml" title="Techiepie.com" href="/feed.xml">
 
   <!-- Google Font -->
@@ -352,66 +352,271 @@
 
   
 
-      <div class="container">
-	<div class="row">
-		<div class="col col-12 col-t-8">
-			<div class="row">
-				<h1>Archive of posts with tag 'fix broken install ubuntu'</h1>
-				
-				<article class="article col col-12 col-t-6">
-					<div class="article-box">
-						<div class="article-head">
-							<a href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/" class="article-image" style="background-image: url(/img/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space.png)">
-							<div class="image-overlay">
-								<span class="image-overlay-text">I</span>
-							</div>
-							</a>
-						</div>
-						<div class="article-content">
-							<div class="article-info">
-								<div class="article-date">
-									<span class="date"><time datetime="2020-06-12T20:00:00-04:00">Jun 12, 2020</time></span>
-								</div>
-								<div class="article-tag">
-									
-									
-									<a href="/tags/fix-broken-install-ubuntu" class="tag">fix broken install ubuntu</a>
-									
-									<a href="/tags/free-up-boot" class="tag">free up /boot</a>
-									
-									<a href="/tags/no-space-left-error" class="tag">no space left error</a>
-									
-									<a href="/tags/ubuntu-boot" class="tag">ubuntu /boot</a>
-									
-									
-								</div>
-							</div>
-							<h2 class="article-title">
-								<a href="/linux/in-ubuntu-how-to-free-up-more-space-in-boot-when-boot-has-no-free-disk-space/">In ubuntu how to free up more space in /boot when /boot has no free disk space!</a>
-							</h2>
-							<p class="article-excerpt">Have you ever encountered below error: many of you might also have encountered below error while doing apt-get command the reason fo...</p>
-						</div>
-					</div>
-				</article> <!-- /.article -->
-				
-			</div>
-			<div class="row">
-  <div class="col col-12">
-    <div class="pagination">
-      <ul class="pagination-list list-reset">
-        
+      <script type="application/ld+json">
+    
 
-        
-      </ul>
-    </div> <!-- /.pagination -->
-  </div>
+    {
+        "@context":"http://schema.org",
+        "@type":"BlogPosting",
+        "headline":"Solved: Intellij Spring boot Gradle Error - Web server failed to start. Port 8080 was already in use",
+        "genre":"",
+        "keywords":"",
+        "wordCount":"2651",
+         "url":"https://www.techiepie.com//programming/solved-intellij-spring-gradle-port-already-in-use/", 
+        "datePublished":"2022-05-11",
+        "author": {
+        "@type": "Person",
+        "name": "Chintan Mehta",
+        "sameAs": [
+            "https://en.gravatar.com/meetchintanmehta"
+        ]
+    },
+        "publisher":{
+                "@type": "Person",
+                "name": "Chintan Mehta",
+                "sameAs": [
+                    "https://en.gravatar.com/meetchintanmehta"
+                ],
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb",
+                "url": "https://www.techiepie.com/"
+            }
+        },
+        "mainEntityOfPage":{
+            "@type":"WebPage",
+            "@id":"https://www.techiepie.com//programming/solved-intellij-spring-gradle-port-already-in-use/"
+        },
+        "articleBody":"Solved: Intellij Spring boot Gradle Error - Web server failed to start. Port 8080 was already in use.Have you ever encountered the below error in a Spring boot Gradle app on your WINDOWS machine with IntelliJ IDEA?WEB SERVER FAILED TO START PORT **** WAS ALREADY IN USE There could be a couple of solutions that you can try.Solution 1: Find and Kill the process consuming the port			Find a process consuming the port		Use the below command in the WINDOWS command prompt using ADMINISTRATOR or WINDOWS PowerShell using ADMINISTRATOR   netstat -a -n -p tcp -o | findstr 49415	 The result of the above command could be either NO RECORDS&amp;nbsp; &amp;nbsp;or &amp;nbsp; TCP    192.168.1.32:49415     52.226.139.180:443     ESTABLISHED     7536 Note down the Process ID - last digits 7536 in our case.			Kill the process		In order to kill the process using the below command kill --pid--  that is kill 7536                  Solution 2: Check the JDK versionIf the Java SDK version is not your application supports then you can get such an error.			Find the Java SDK version of the project in IntelliJ IDEA		In order to find the Java SDK version set for the project in IntelliJ IDEA editor, on a Windows machine							Click File			Click on Project Structure			On the left panel, under Project Settings, Click on the Project menu			Find the option of SDK set for the current project.						Edit the Java SDK for the project in IntelliJ IDEA Once you find the SDK option as per the above steps, Select OR edit the SDK version of lower OR higher, and click OK. Depending on the project you may need to set the SDK to the latest version or older version. Setting SDK to 1.8 should work in the most cases"
+    }
+</script>
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12">
+			<div class="post-image-box">
+				<div class="post-image" style="background-image: url(/img/Select-SDK-OK.png)"></div>
+			</div>
+		</div>
+	</div>
 </div>
 
-		</div>
-		<div class="col col-12 col-t-4">
-			<aside class="sidebar">
+
+<div class="container">
+	<div class="row">
+		<article class="col col-12 col-t-8 post">
+			<div class="post-content">
+
+				<div class="post-head">
+					
+					<div class="post-tag">
+						
+						<a href="/categories/programming" class="tag">programming</a>
+						
+					</div>
+					
+					<h1 class="post-title">Solved: Intellij Spring boot Gradle Error - Web server failed to start. Port 8080 was already in use</h1>
+					<div class="post-info">
+						<div class="post-info-author">
+							<div class="info-author-avatar" style="background-image: url('https://secure.gravatar.com/avatar/a43951c5b7504c657016e1e3a3390bcb')"></div>
+							<span>by</span>
+							<span class="info-author-name">Chintan Mehta</span>
+						</div>
+						<div class="post-date">
+							<span>
+								<time datetime="2022-05-11T20:00:00-04:00">May 11, 2022</time>
+							</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="post-body">
+					<h1>Solved: Intellij Spring boot Gradle Error - Web server failed to start. Port 8080 was already in use.</h1>
+<p>Have you ever encountered the below error in a <strong>Spring boot Gradle</strong> app on your <strong>WINDOWS</strong> machine with <strong>IntelliJ</strong> IDEA?</p>
+<p><code><strong>WEB SERVER FAILED TO START PORT **** WAS ALREADY IN USE </strong></code></p>
+<p>There could be a couple of solutions that you can try.</p>
+<h2>Solution 1: Find and Kill the process consuming the port</h2>
+<ol>
+	<li>
+		<h3>Find a process consuming the port</h3>
+		Use the below command in the WINDOWS command prompt using ADMINISTRATOR or WINDOWS PowerShell using ADMINISTRATOR <br /><code>  netstat -a -n -p tcp -o | findstr 49415
+	</code> <br />The result of the above command could be either <br /><code>NO RECORDS</code>&nbsp; &nbsp;<span style="text-decoration: underline;">or</span> &nbsp; <br /><code>TCP    192.168.1.32:49415     52.226.139.180:443     ESTABLISHED     7536</code> <br />Note down the Process ID - last digits <code>7536</code> in our case.</li>
+	<li>
+		<h3>Kill the process</h3>
+		In order to kill the process using the below command <br /><code>kill --pid-- </code> <br />that is <br /><code>kill 7536</code></li>
+</ol>
+
+      <!-- horizontal responsive -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="pub-6443490091595677"
+           data-ad-slot="6872869883"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+
+<h2>Solution 2: Check the JDK version</h2>
+<p>If the Java SDK version is not your application supports then you can get such an error.</p>
+<ol>
+	<li>
+		<h1>Find the Java SDK version of the project in IntelliJ IDEA</h1>
+		In order to find the Java SDK version set for the project in IntelliJ IDEA editor, on a Windows machine
+		<img src="/img/File-ProjectStructure.png">
+		<ol>
+			<li>Click <strong>File</strong></li>
+			<li>Click on <strong>Project Structure</strong></li>
+			<li>On the left panel, under Project Settings, Click on the Project menu</li>
+			<li>Find the option of SDK set for the current project.</li>
+		</ol>
+		<img src="/img/Project-SDK.png">
+	</li>
+	<li>Edit the Java SDK for the project in IntelliJ IDEA <br />Once you find the SDK option as per the above steps, Select OR edit the SDK version of lower OR higher, and click OK. <br />Depending on the project you may need to set the SDK to the latest version or older version. Setting SDK to 1.8 should work in the most cases</li>
+	<img src="/img/Select-SDK-OK.png">
+</ol>
+					
+					
+					<div class="post-tag">
+						
+						<a href="/tags/intellij" class="tag">IntelliJ</a>
+						
+						<a href="/tags/spring" class="tag">Spring</a>
+						
+						<a href="/tags/spring-boot" class="tag">Spring Boot</a>
+						
+						<a href="/tags/gradle" class="tag">Gradle</a>
+						
+						<a href="/tags/java" class="tag">Java</a>
+						
+					</div>
+					
+					<div class="post-share">
+						<ul class="share-list list-reset">
+							<li class="share-item">
+								<a class="share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.techiepie.com//programming/solved-intellij-spring-gradle-port-already-in-use/"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Facebook" rel="nofollow">
+									<i class="ion ion-logo-facebook"></i>
+								</a>
+							</li>
+					
+							<li class="share-item">
+								<a class="share-twitter" href="https://twitter.com/intent/tweet?text=Solved:%20Intellij%20Spring%20boot%20Gradle%20Error%20-%20Web%20server%20failed%20to%20start.%20Port%208080%20was%20already%20in%20use&url=https://www.techiepie.com//programming/solved-intellij-spring-gradle-port-already-in-use/"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Twitter" rel="nofollow">
+									<i class="ion ion-logo-twitter"></i>
+								</a>
+							</li>
+					
+							<li class="share-item">
+								<a class="share-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.techiepie.com//programming/solved-intellij-spring-gradle-port-already-in-use/&title=Solved:%20Intellij%20Spring%20boot%20Gradle%20Error%20-%20Web%20server%20failed%20to%20start.%20Port%208080%20was%20already%20in%20use&summary=Have%20you%20ever%20encountered%20the%20below%20error%20in%20a%20Spring%20boot%20Gradle%20app%20on%20your%20WINDOWS%20machine%20with%20IntelliJ%20IDEA?WEB%20SERVER%20FAILED%20TO%20START%20PORT%20****%20WAS%20ALREADY%20IN%20USE&source=Techiepie.com"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on LinkedIn" rel="nofollow">
+									<i class="ion ion-logo-linkedin"></i>
+								</a>
+							</li>
+					
+							<li class="share-item">
+								<a class="share-pinterest" href="http://pinterest.com/pin/create/button/?url=https://www.techiepie.com//programming/solved-intellij-spring-gradle-port-already-in-use/&amp;media=https://www.techiepie.com//img/Select-SDK-OK.png&amp;description=Solved:%20Intellij%20Spring%20boot%20Gradle%20Error%20-%20Web%20server%20failed%20to%20start.%20Port%208080%20was%20already%20in%20use"
+								onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+								title="Share on Pinterest" rel="nofollow">
+									<i class="ion ion-logo-pinterest"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="post-navigation">
+					
+					<a href="/windows/cannot-find-path-error-windows-photoshop/" class="prev">
+						<div class="post-nav-arrow"><i class="ion ion-ios-arrow-round-back"></i> Previous Article</div>
+						<h2 class="post-nav-title">Solved: Error - The system cannot find path specified for Adobe photoshop on windows 10</h2>
+					</a>
+					 
+				</div>
+
+			</div>
+			
+				<div class="comments">
+  <div id="disqus_thread" class="article-comments"></div>
+  <script>
+    (function () {
+      var d = document, s = d.createElement('script');
+      s.src = '//techiepie-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+</div> <!-- /.comments -->
+			
+	</article> <!-- /.post -->
+
+	<div class="col col-12 col-t-4">
+		<aside class="sidebar">
   
   
+  <div class="widget widget-recent">
+    <h3 class="widget-title">Recent Posts</h3>
+    
+    <div class="recent-posts">
+      
+      <div class="recent-header">
+        <a class="recent-image" href="/programming/solved-intellij-spring-gradle-port-already-in-use/" style="background-image: url(/img/Select-SDK-OK.png)"></a>
+      </div>
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/programming/solved-intellij-spring-gradle-port-already-in-use/">Solved: Intellij Spring boot Gradle Error - Web server failed to start. Port 8080 was already in use</a></h6>
+        <div class="recent-date">
+          <time datetime="2022-05-11T20:00:00-04:00">May 11, 2022</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      <div class="recent-header">
+        <a class="recent-image" href="/windows/cannot-find-path-error-windows-photoshop/" style="background-image: url(/img/cannot-find-path-error-windows-10-adobe-photoshop.jpg)"></a>
+      </div>
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/windows/cannot-find-path-error-windows-photoshop/">Solved: Error - The system cannot find path specified for Adobe photoshop on windows 10</a></h6>
+        <div class="recent-date">
+          <time datetime="2021-06-02T20:00:00-04:00">June 2, 2021</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      <div class="recent-header">
+        <a class="recent-image" href="/windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/" style="background-image: url(/img/wsl-windows-10-vmmem-memory-usage.jpg)"></a>
+      </div>
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/windows/how-to-limit-memory-and-processor-in-wsl-2-windows-10/">How to limit memory and processor usage in Windows 10 WSL2</a></h6>
+        <div class="recent-date">
+          <time datetime="2021-06-01T20:00:00-04:00">June 1, 2021</time>
+        </div>
+      </div>
+    </div>
+    
+    <div class="recent-posts">
+      
+      
+      <div class="recent-content">
+        <h6 class="recent-title"><a href="/tips%20&%20tricks/how-to-activate-tivo-stream-4k-in-canada/">Solved: How to activate Tivo Stream 4k in Canada</a></h6>
+        <div class="recent-date">
+          <time datetime="2020-11-04T16:05:55-05:00">November 4, 2020</time>
+        </div>
+      </div>
+    </div>
+    
+  </div>
   
 
   
@@ -559,7 +764,8 @@
   </div>
   
 </aside> <!-- /.sidebar -->
-		</div>
+	</div>
+
 	</div>
 </div>
 

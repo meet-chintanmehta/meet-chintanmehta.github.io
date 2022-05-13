@@ -69,7 +69,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  jekyll (>= 3.8.4)
+  jekyll (>= 3.9.1)
   jekyll-archives
   jekyll-paginate
   jekyll-redirect-from
